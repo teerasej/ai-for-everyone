@@ -1,5 +1,5 @@
 
-# Microsoft 365 Copilot - Smart Assistant for your office work
+# AI for Everyone
 
 - [Presentation file](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/ERdbzxLpzY9FoOVgUNXRJSMBr72wdvhhAgTdLXwWOS-b6w?e=cZGeu8)
 
