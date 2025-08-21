@@ -3,6 +3,15 @@
 
 - [Presentation file](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/ERdbzxLpzY9FoOVgUNXRJSMBr72wdvhhAgTdLXwWOS-b6w?e=cZGeu8)
 
+
+## Part 1: The boring task
+
+- [งานน่าเบื่อประจำวัน](exercises/explore-your-boring-task.md)
+
+## Part 2: Copilot Chat
+
+- [Copi]
+
 ## Exercise
 
 1. [สรุปเนื้อหาสำคัญ และร่าง Email ใน Outlook โดยใช้ Copilot](exercises/outlook.md)
