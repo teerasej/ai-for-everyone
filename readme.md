@@ -10,7 +10,7 @@
 
 ## Part 2: Copilot Chat
 
-- [Copi]
+- [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
 
 ## Exercise
 
