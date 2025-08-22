@@ -78,7 +78,7 @@ Draft an email to [name] about [topic].
 
 ## Feature 3: Working with File
 
-1. ดาวน์โหลดไฟล์ PDF จาก [ที่นี่](https://github.com/teerasej/ai-for-everyone/blob/main/files/Expenses_Policy.pdf)
+1. ดาวน์โหลดไฟล์ PDF จาก [ที่นี่](https://github.com/teerasej/ai-for-everyone/blob/main/files/Expenses_Policy.pdf) หรือใช้ file ที่ได้จาก zip ที่ดาวน์โหลดตอนแรก
 2. ขึ้นห้องแชทใหม่
 3. จากกล่องข้อความแชท ให้กดปุ่ม "+" และเลือก Add Content 
 

@@ -14,15 +14,12 @@
 
 ## Part 3: Copilot in Microsoft 365
 
-
-
-1. [สรุปเนื้อหาสำคัญ และร่าง Email ใน Outlook โดยใช้ Copilot](exercises/outlook.md)
-2. [สรุปและร่างสุนทรพจน์ โดยใช้ Copilot ใน Word](exercises/speech.md)
-3. [สร้างสไลด์นำเสนอด้วย Copilot ใน PowerPoint](exercises/speech-presentation.md)
-4. [สรุปเนื้อหาการนำเสนอ ด้วย Copilot ใน PowerPoint](exercises/presentation-summary.md)
-5. [วิเคราะห์ข้อมูลและสร้างกราฟใน Excel ด้วย Copilot](exercises/excel.md)
-6. [สืบค้นข้อมูลด้วย Business Chat](exercises/business-chat.md)
-7. [สรุปงานด้วย Business Chat](exercises/business-chat-summary.md)
+1. [สรุปและร่างสุนทรพจน์ โดยใช้ Copilot ใน Word](exercises/speech.md)
+2. [สร้างสไลด์นำเสนอด้วย Copilot ใน PowerPoint](exercises/speech-presentation.md)
+3. [สรุปเนื้อหาสำคัญ และร่าง Email ใน Outlook โดยใช้ Copilot](exercises/outlook.md)
+4. [วิเคราะห์ข้อมูลและสร้างกราฟใน Excel ด้วย Copilot](exercises/excel.md)
+5. [สืบค้นข้อมูลด้วย Business Chat](exercises/business-chat.md)
+6. [สรุปงานด้วย Business Chat](exercises/business-chat-summary.md)
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 
