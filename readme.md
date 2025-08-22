@@ -1,7 +1,8 @@
 
 # AI for Everyone
 
-- [Presentation file](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/ERdbzxLpzY9FoOVgUNXRJSMBr72wdvhhAgTdLXwWOS-b6w?e=cZGeu8)
+- [Download Presentation file](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/ERdbzxLpzY9FoOVgUNXRJSMBr72wdvhhAgTdLXwWOS-b6w?e=cZGeu8)
+- [Download ZIP file](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/ERyEYYhr6BtIvocPrnfwQ24BEcMTorn96Swh_gegNGY5OA?e=wRaVVJ)
 
 
 ## Part 1: The boring task
