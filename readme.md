@@ -12,7 +12,9 @@
 
 - [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
 
-## Exercise
+## Part 3: Copilot in Microsoft 365
+
+
 
 1. [สรุปเนื้อหาสำคัญ และร่าง Email ใน Outlook โดยใช้ Copilot](exercises/outlook.md)
 2. [สรุปและร่างสุนทรพจน์ โดยใช้ Copilot ใน Word](exercises/speech.md)
