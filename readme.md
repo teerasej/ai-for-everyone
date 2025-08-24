@@ -9,15 +9,22 @@
 
 - [งานน่าเบื่อประจำวัน](exercises/explore-your-boring-task.md)
 
-## Part 2: Copilot Chat
+## Part 2: เอไอจอมคุยในที่ทำงาน - Copilot Chat
 
 - [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
 
-## Part 3: Copilot in Microsoft 365
+## Part 3: AI ใน Microsoft 365
 
 - [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
-## Part 4: 
+## Part 4: Using AI with boring task
+
+- [ใช้ AI ช่วยในการทำงานน่าเบื่อพวกนั้นได้ไหม](exercises/using-ai-with-boring-task.md)
+
+## Part 5: AI Agent
+
+1. [เรียกใช้ Agent สำเร็จรูป](exercises/agent/explore-ai-agent.md)
+2. [สร้าง Agent แบบง่ายๆ ด้วยตัวเอง](exercises/agent/create-first-ai-agent.md)
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 
