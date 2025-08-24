@@ -25,6 +25,7 @@
 
 1. [ทดสอบเรียกใช้ Agent สำเร็จรูป](exercises/agent/explore-ai-agent.md)
 2. [สร้าง Agent แบบง่ายๆ ด้วยตัวเอง](exercises/agent/create-first-ai-agent.md)
+3. [สร้าง Agent ที่ตอบข้อมูลจากแหล่งข้อมูลภายในองค์กร](exercises/agent/create-internal-data-ai-agent.md)
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 
