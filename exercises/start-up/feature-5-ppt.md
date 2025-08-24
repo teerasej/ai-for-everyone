@@ -16,11 +16,11 @@
    ### สำหรับผู้ใช้ที่มี License
    1. เปิด Copilot จากแถบเมนูด้านบน > ฝั่งขวาสุดของโปรแกรม Powerpoint
    2. จากห้องแชท เลือกคำสั่ง "Create a presentation about"
-   ![alt text](../../images/2025-08-23_22-43-23.png)
+   ![alt text](../../images/copilot/2025-08-23_22-43-23.png)
    3. คัดลอกข้อความ prompt วางในหน้าต่างและกดปุ่มส่ง
-   ![alt text](../../images/2025-08-23_22-43-54.png)
+   ![alt text](../../images/copilot/2025-08-23_22-43-54.png)
    4. รอ Copilot แสดง outline และปรับแต่งตามต้องการ
    5. กดปุ่ม Generate 
    6. ตรวจสอบผลลัพธ์
-   ![alt text](../../images/2025-08-23_22-44-16.png)
+   ![alt text](../../images/copilot/2025-08-23_22-44-16.png)
      

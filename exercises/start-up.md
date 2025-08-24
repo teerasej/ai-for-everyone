@@ -6,7 +6,7 @@
 
 1. ล๊อคอินเข้าใช้งาน https://onedrive.live.com/
 2. สร้าง folder ใหม่ชื่อ **MyCopilot** จากการกดปุ่ม **Create or upload > Folder**
-   ![alt text](../images/2025-08-23_21-38-02.png)
+   ![alt text](../images/copilot/2025-08-23_21-38-02.png)
 3. อัพโหลดไฟล์ชื่อ **Business Idea.docx** ไปที่ OneDrive ของตัวเอง
 
 ## ลองทำ

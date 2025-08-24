@@ -23,7 +23,7 @@
 
 ## Part 5: AI Agent
 
-1. [เรียกใช้ Agent สำเร็จรูป](exercises/agent/explore-ai-agent.md)
+1. [ทดสอบเรียกใช้ Agent สำเร็จรูป](exercises/agent/explore-ai-agent.md)
 2. [สร้าง Agent แบบง่ายๆ ด้วยตัวเอง](exercises/agent/create-first-ai-agent.md)
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
