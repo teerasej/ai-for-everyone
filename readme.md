@@ -11,7 +11,8 @@
 
 ## Part 2: เอไอจอมคุยในที่ทำงาน - Copilot Chat
 
-- [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
+1. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
+2. [ใช้งาน Prompt Gallery](exercises/copilot-prompt-gallery.md)
 
 ## Part 3: AI ใน Microsoft 365
 
