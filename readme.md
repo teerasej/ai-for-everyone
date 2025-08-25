@@ -18,15 +18,17 @@
 
 - [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
-## Part 4: Using AI with boring task
 
-- [ใช้ AI ช่วยในการทำงานน่าเบื่อพวกนั้นได้ไหม](exercises/using-ai-with-boring-task.md)
-
-## Part 5: AI Agent
+## Part 4: AI Agent
 
 1. [ทดสอบเรียกใช้ Agent สำเร็จรูป](exercises/agent/explore-ai-agent.md)
 2. [สร้าง Agent แบบง่ายๆ ด้วยตัวเอง](exercises/agent/create-first-ai-agent.md)
 3. [สร้าง Agent ที่ตอบข้อมูลจากแหล่งข้อมูลภายในองค์กร](exercises/agent/create-internal-data-ai-agent.md)
+
+## Part 5: Using AI with boring task
+
+- [ใช้ AI ช่วยในการทำงานน่าเบื่อพวกนั้นได้ไหม](exercises/using-ai-with-boring-task.md)
+
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
 
