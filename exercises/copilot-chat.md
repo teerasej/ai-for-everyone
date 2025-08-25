@@ -4,8 +4,8 @@
 
 ## ขั้นตอนการเข้าใช้งาน
 
-1. เปิด link https://m365copilot.com/
-   - หรือ https://copilot.microsoft.com
+1. เปิด link [https://m365copilot.com/](https://m365copilot.com/)
+   - หรือ [https://copilot.microsoft.com](https://copilot.microsoft.com)
 2. Login ด้วย Microsoft account ขององค์กร
 3. เราจะเห็นเข้ามาที่ Copilot Chat ตามภาพ
 
