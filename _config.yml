@@ -1,8 +1,22 @@
-theme: jekyll-theme-cayman
+remote_theme: pmarsceill/just-the-docs
 title: AI for Everyone
 description: เอกสารและแบบฝึกหัดสำหรับการเรียนรู้เกี่ยวกับ AI
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
     block:
-      line_numbers: true
+      line_numbers: false
+
+# Color scheme
+color_scheme: light
+
+# Enable search
+search_enabled: true
+
+# Enable copy buttons for code blocks
+enable_copy_code_button: true
+
+# Navigation
+aux_links:
+  "GitHub Repository":
+    - "//github.com/teerasej/ai-for-everyone"

@@ -1,8 +1,11 @@
 ---
 layout: page
+title: Copilot Chat
+parent: Exercises
+nav_order: 2
 ---
 
-# Part 2: Copilot Chat
+# Copilot Chat
 
 
 

@@ -1,10 +1,16 @@
 
+---
+---
 
-@import "jekyll-theme-cayman";
+@import "pmarsceill/just-the-docs";
 
-pre {
+pre.highlight {
   position: relative;
-  padding-top: 30px !important;
+  overflow: auto;
+  padding: 0.75rem;
+  padding-top: 2.5rem !important;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
 }
 
 .copy-code-button {
@@ -14,18 +20,71 @@ pre {
   padding: 3px 8px;
   font-size: 0.8em;
   color: #ffffff;
-  background: #565656;
+  background: #2c84fa;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .copy-code-button:hover {
-  background-color: #787878 !important;
+  background-color: #1a6ce1 !important;
+  transition: all 0.2s ease-in-out;
+}
+
+.copy-code-button.copied {
+  background-color: #27ae60 !important;
+  color: white;
+}
+
+.copy-code-button.error {
+  background-color: #e74c3c !important;
+  color: white;
 }
 
 @media print {
   .copy-code-button {
     display: none;
   }
+}
+
+// Add some business-friendly styling
+.site-header {
+  background-color: #1a6ce1;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.side-bar {
+  background-color: #f7f7f7;
+  border-right: 1px solid #e0e0e0;
+}
+
+.main-content h1, 
+.main-content h2, 
+.main-content h3, 
+.main-content h4, 
+.main-content h5, 
+.main-content h6 {
+  color: #1a6ce1;
+  margin-top: 1.5em;
+  margin-bottom: 0.8em;
+}
+
+.home-header {
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.home-title {
+  font-size: 2.5rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+  color: #1a6ce1;
+}
+
+.home-description {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color: #6c757d;
 }

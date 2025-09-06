@@ -1,6 +1,10 @@
 
 ---
-layout: default
+layout: home
+title: AI for Everyone
+nav_order: 1
+description: "เอกสารและแบบฝึกหัดสำหรับการเรียนรู้เกี่ยวกับ AI"
+permalink: /
 ---
 
 # AI for Everyone

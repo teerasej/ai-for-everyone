@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Select all code blocks
-  const codeBlocks = document.querySelectorAll('pre > code');
+  const codeBlocks = document.querySelectorAll('div.highlight > pre');
   
   // For each code block
   codeBlocks.forEach(function(codeBlock) {
@@ -10,46 +10,39 @@ document.addEventListener('DOMContentLoaded', function() {
     copyButton.type = 'button';
     copyButton.innerText = 'Copy';
     
-    // Style for the button
-    copyButton.style.position = 'absolute';
-    copyButton.style.top = '5px';
-    copyButton.style.right = '5px';
-    copyButton.style.padding = '3px 8px';
-    copyButton.style.fontSize = '0.8em';
-    copyButton.style.color = '#ffffff';
-    copyButton.style.background = '#565656';
-    copyButton.style.border = 'none';
-    copyButton.style.borderRadius = '4px';
-    copyButton.style.cursor = 'pointer';
+    // No inline styles - we'll use the CSS file for styling
+    copyButton.setAttribute('aria-label', 'Copy code to clipboard');
     
     // Add the copy functionality
     copyButton.addEventListener('click', function() {
-      const code = codeBlock.innerText;
+      const code = codeBlock.textContent;
       navigator.clipboard.writeText(code).then(function() {
         // Visual feedback
         copyButton.innerText = 'Copied!';
-        copyButton.style.background = '#4CAF50';
+        copyButton.classList.add('copied');
         
         setTimeout(function() {
           copyButton.innerText = 'Copy';
-          copyButton.style.background = '#565656';
+          copyButton.classList.remove('copied');
         }, 2000);
       }, function(error) {
         copyButton.innerText = 'Error!';
-        copyButton.style.background = '#F44336';
+        copyButton.classList.add('error');
         
         setTimeout(function() {
           copyButton.innerText = 'Copy';
-          copyButton.style.background = '#565656';
+          copyButton.classList.remove('error');
         }, 2000);
       });
     });
     
-    // Get the parent of the code block
-    const pre = codeBlock.parentNode;
-    pre.style.position = 'relative';
+    // Make the parent position relative if it's not already
+    const preParent = codeBlock.parentNode;
+    if (window.getComputedStyle(preParent).position === 'static') {
+      preParent.style.position = 'relative';
+    }
     
     // Add the button to the pre element
-    pre.appendChild(copyButton);
+    preParent.appendChild(copyButton);
   });
 });
