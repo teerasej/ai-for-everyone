@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # สรุปเนื้อหาสำคัญ และร่าง Email ใน Outlook โดยใช้ Copilot
 

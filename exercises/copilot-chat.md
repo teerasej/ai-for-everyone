@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Part 2: Copilot Chat
 
 
@@ -128,6 +132,3 @@ Draft an email to [name] about [topic].
 
 6. ตรวจสอบผลลัพธ์
 7. บันทึกรูปภาพไปใช้งาน
-
-
-

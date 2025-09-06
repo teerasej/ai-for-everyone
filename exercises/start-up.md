@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # Part 3: วางแผนธุรกิจผ่าน Microsoft 365 Copilot 
 
@@ -16,4 +20,3 @@
 4. [Feature 4: สร้าง Financial report](start-up/feature-4-excel.md)
 5. [Feature 5: สร้าง Presentation](start-up/feature-5-ppt.md)
 6. [Feature 6: สร้าง Email](start-up/feature-6-outlook.md)
-

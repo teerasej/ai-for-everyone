@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # Feature 6: สร้าง Email
 
@@ -27,4 +31,3 @@
       ![alt text](../../images/copilot/2025-08-23_22-55-26.png)
    4. กดปุ่ม Keep it เพื่อยืนยันการใช้ข้อความ
       ![alt text](../../images/copilot/2025-08-23_22-56-09.png)
-

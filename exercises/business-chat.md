@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # สืบค้นข้อมูลด้วย Business Chat
 

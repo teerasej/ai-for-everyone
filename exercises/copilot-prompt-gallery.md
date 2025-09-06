@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # ใช้งาน Prompt Gallery
 

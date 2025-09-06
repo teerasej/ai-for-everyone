@@ -1,0 +1,14 @@
+pre {
+  position: relative;
+  padding-top: 30px !important;
+}
+
+.copy-code-button:hover {
+  background-color: #787878 !important;
+}
+
+@media print {
+  .copy-code-button {
+    display: none;
+  }
+}

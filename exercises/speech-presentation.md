@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # สร้างสไลด์นำเสนอด้วย Copilot ใน PowerPoint
 

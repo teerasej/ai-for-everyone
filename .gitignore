@@ -4,7 +4,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -24,3 +25,10 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Jekyll files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock

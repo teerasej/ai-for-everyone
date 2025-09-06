@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # Feature 2: ให้ออกไอเดีย และแปลงเป็น Table
 

@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # สรุปเนื้อหาการนำเสนอ ด้วย Copilot ใน PowerPoint
 

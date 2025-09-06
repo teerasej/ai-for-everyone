@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 
 # Feature 4: สร้าง Financial report

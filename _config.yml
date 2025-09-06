@@ -1,0 +1,8 @@
+theme: jekyll-theme-cayman
+title: AI for Everyone
+description: เอกสารและแบบฝึกหัดสำหรับการเรียนรู้เกี่ยวกับ AI
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true

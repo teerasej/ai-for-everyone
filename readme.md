@@ -1,4 +1,8 @@
 
+---
+layout: default
+---
+
 # AI for Everyone
 
 1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EaQRyKkXAQlGlVYINtCNnEcBIyGmatuTxGel_yNrTDtZCw?e=QgmDpI)

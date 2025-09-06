@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 
 # สรุปงานด้วย Business Chat
 
