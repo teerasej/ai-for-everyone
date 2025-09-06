@@ -18,7 +18,6 @@
 
 - [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
-
 ## Part 4: AI Agent
 
 1. [ทดสอบเรียกใช้ Agent สำเร็จรูป](exercises/agent/explore-ai-agent.md)
