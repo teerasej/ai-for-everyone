@@ -6,13 +6,13 @@
 
 ## ขั้นตอนการกำหนดหน้าที่ของ Agent แบบแชทคุยกัน (Describe)
 
-1. เปิด Copilot Chat [https://m365copilot.com/](https://m365copilot.com/)
+1. เปิด Copilot Chat https://m365copilot.com/
 2. ในเมนูด้านข้าง ให้เลือก **Chat** > **Agents** > **Create Agent** หน้าต่างจะแยกเป็นด้านซ้ายสำหรับตั้งค่าการทำงานของ Agent ส่วนด้านขวาจะเป็นตัวอย่างพรีวิว Agent เพื่อให้ทดสอบพูดคุย
     ![alt text](<../../images/agent/2025-08-24_13-38-18 copy.png>)
 3. ขั้นตอนแรก Copilot จะถามให้เราอธิบายว่า Agent จะทำอะไรได้บ้าง ให้คัดลอกข้อความด้านล่างไปตอบให้แชท และกด enter
     
     ```
-    Help AEON staff find AEON thailand's product and service to answer their customer questions
+    You will help people find overview information about DENSO
     ```
 
 4. ขั้นตอนถัดไป Copilot จะถามให้เรากำหนดชื่อของ Agent โดยเสนอชื่อมาให้ เราสามารถตอบตกลงตามข้อความด้านล่าง หรือจะเสนอชื่อใหม่ที่ต้องการก็ได้
@@ -20,27 +20,23 @@
     ```
     Yes
     ```
-    หรือ
-    ```
-    AEON Product Guru
-    ```
 
 5. ต่อมา Copilot อาจจะทวนหน้าที่ของ Agent โดยมีการนำเสนอหน้าที่เพิ่มเติม ให้เราพิจารณา ในที่นี้เราอาจจะตอบด้วยข้อความด้านล่างว่า (ถ้า Copilot ไม่ได้บอก)
 
     ```
-    quick answer and compare products that suite customer's need
+    yes, and also the contact information
     ```
 
 6. ขั้นตอนหนึ่งที่ Copilot จะถาม คือการถามหาแหล่งข้อมูล ซึ่งในที่นี้ เราสามารถแจ้ง URL ของ website ที่ต้องการให้ Agent ใช้เป็นแหล่งข้อมูลได้
 
     ```
-    https://www.aeon.co.th/aeon/faq/
+    https://www.denso.com/th/en/about-us/company-information/diat/
     ```
-    > ถ้า URL ยาวไป สังเกตว่า Copilot จะแจ้งกลับมาว่า สำหรับ URL จะได้แค่ลึก 2 level นะ (เช่น `www.web.com/1/2`)และจะตัดให้เองอัตโนมััติ ดังนั้นจุดนี้ต้องดูว่าแหล่งข้อมูลบนเว็บของเราพร้อมมั้ย ถ้าจะเอามาใช้
+    > สังเกตว่า Copilot จะแจ้งกลับมาว่า สำหรับ URL จะได้แค่ลึก 2 level นะ และจะตัดให้เองอัตโนมััติ ดังนั้นจุดนี้ต้องดูว่าแหล่งข้อมูลบนเว็บของเราพร้อมมั้ย ถ้าจะเอามาใช้
 
 7. เมื่อให้ข้อมูลพอสมควรแล้ว เราสามารถทดสอบคุยกับ agent ได้เลย **จากห้องแชททางขวาได้เลย**
     ```
-    บัตรหายทำไงดี
+    ติดต่อ DENSO ได้ยังไงบ้าง
     ```
 
 8. เมื่อพอใจแล้ว เราสามารถกดปุ่ม Create ด้านบนขวาของหน้าจอ Create Agent ได้

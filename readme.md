@@ -1,5 +1,5 @@
 
-# AI for Everyone
+# AI Agent for Everyone
 
 1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EaQRyKkXAQlGlVYINtCNnEcBIyGmatuTxGel_yNrTDtZCw?e=QgmDpI)
 2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EWoH7dI1zXJModTQ6sMYmeoB_inCyj2hoeInKQamG_Sexw?e=bVWRwY)
