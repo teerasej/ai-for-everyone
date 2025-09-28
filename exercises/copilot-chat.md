@@ -72,7 +72,7 @@ Draft an email to [name] about [topic].
 
 1. ดาวน์โหลดไฟล์ PDF จาก [ที่นี่](https://github.com/teerasej/ai-for-everyone/blob/main/files/Expenses_Policy.pdf) หรือใช้ file ที่ได้จาก zip ที่ดาวน์โหลดตอนแรก
 2. ขึ้นห้องแชทใหม่
-3. จากกล่องข้อความแชท ให้กดปุ่ม "+" และเลือก Add Content 
+3. จากกล่องข้อความแชท ให้กดปุ่ม "+" และเลือก **Add Work Content **
 
 ![ภาพตัวอย่าง](../images/copilot/2025-08-22_00-04-37.png)
 
