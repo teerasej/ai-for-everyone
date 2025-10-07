@@ -9,7 +9,7 @@
 
 - [งานน่าเบื่อประจำวัน](exercises/explore-your-boring-task.md)
 
-## Part 2: เอไอจอมคุยในที่ทำงาน - Copilot Chat
+## Part 2: เอไอคู่ใจในที่ทำงาน - Copilot Chat
 
 1. [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
 2. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
@@ -19,8 +19,7 @@
 
 ## Part 3: AI ใน Microsoft 365
 
-- 
-- [(Optional) วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
+- วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
 ## Part 4: AI Agent
 
