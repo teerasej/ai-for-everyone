@@ -1,7 +1,7 @@
 
 # Part 3: วางแผนธุรกิจผ่าน Microsoft 365 Copilot 
 
-## เตรียมตัว
+## เตรียมตัว เตรียมไฟล์
 
 1. ล๊อคอินเข้าใช้งาน [https://onedrive.live.com/](https://onedrive.live.com/)
 2. สร้าง folder ใหม่ชื่อ **MyCopilot** จากการกดปุ่ม **Create or upload > Folder**
