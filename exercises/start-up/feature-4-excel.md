@@ -1,6 +1,6 @@
 
 
-# Feature 4: สร้าง Financial report
+# Feature 4: ทำงานกับ Financial report
 
 > ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
 

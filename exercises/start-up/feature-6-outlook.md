@@ -1,9 +1,25 @@
 
-# Feature 6: สร้าง Email
+# Feature 6: สรุปเนื้อหา หรือร่าง Email
 
 > ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
 
-1. ทำการเปิดเข้าใช้งาน outlook.com ด้วยบัญชีของตัวเอง
+## 1. สรุปเนื้อหา Email
+
+1. ทำการเปิดเข้าใช้งาน [https://outlook.com](https://outlook.com) ด้วยบัญชีของตัวเอง
+2. เปิดอีเมล thread ที่ต้องการให้ Copilot ช่วยสรุป
+3. คลิกที่ปุ่ม Summarize ที่ด้านบนของหน้าต่าง Email
+4. ตรวจสอบผลลัพธ์ที่ Copilot สรุปมาให้
+
+### แบบฟรี
+
+![alt text](../../images/copilot/2025-09-29_17-41-19.png)
+
+### แบบ License
+
+![alt text](../../images/copilot/2025-09-29_17-44-14.png)
+## 2. ร่าง Email
+
+1. ทำการเปิดเข้าใช้งาน [https://outlook.com](https://outlook.com) ด้วยบัญชีของตัวเอง
 2. กดสร้าง mail ใหม่
    ![alt text](../../images/copilot/2025-08-23_22-54-27.png)
 3. แบบฝึกหัดนี้ เราจะใช้คำสั่ง prompt ต่อไปนี้สำหรับสั่งงาน copilot

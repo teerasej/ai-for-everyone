@@ -19,7 +19,8 @@
 
 ## Part 3: AI ใน Microsoft 365
 
-- [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
+- 
+- [(Optional) วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
 ## Part 4: AI Agent
 
