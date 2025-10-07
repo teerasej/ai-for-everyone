@@ -2,7 +2,7 @@
 # AI Agent for Everyone
 
 1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EaQRyKkXAQlGlVYINtCNnEcBIyGmatuTxGel_yNrTDtZCw?e=QgmDpI)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EWoH7dI1zXJModTQ6sMYmeoB_inCyj2hoeInKQamG_Sexw?e=bVWRwY)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EeQ3u_w1WB5Ep9ZoVUQUNWEBqCteea4_keCMOll7UWAQhw?e=bswOE1)
 
 
 ## Part 1: The boring task
@@ -11,8 +11,9 @@
 
 ## Part 2: เอไอจอมคุยในที่ทำงาน - Copilot Chat
 
-1. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
-2. [ใช้งาน Prompt Gallery](exercises/copilot-prompt-gallery.md)
+1. [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
+2. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
+3. [(Optional) ใช้งาน Prompt Gallery](exercises/copilot-prompt-gallery.md)
 
 ## Part 3: AI ใน Microsoft 365
 
