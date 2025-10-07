@@ -16,4 +16,5 @@
 4. [Feature 4: ทำงานกับ Financial report](start-up/feature-4-excel.md)
 5. [Feature 5: สร้าง Presentation](start-up/feature-5-ppt.md)
 6. [Feature 6: สร้าง Email](start-up/feature-6-outlook.md)
+7. [Feature 7: เตรียมการบันทึก Meeting](start-up/feature-7-teams.md)
 
