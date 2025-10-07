@@ -14,7 +14,8 @@
 1. [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
 2. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
 3. [(Optional) ใช้งานโหมด Work](exercises/copilot-work-mode.md)
-4. [(Optional) ใช้งาน Prompt Gallery](exercises/copilot-prompt-gallery.md)
+4. [(Optional) ใช้งานโหมด Create](exercises/copilot-create-mode.md)
+5. [(Optional) ใช้งาน Prompt Gallery](exercises/copilot-prompt-gallery.md)
 
 ## Part 3: AI ใน Microsoft 365
 
