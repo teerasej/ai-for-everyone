@@ -8,7 +8,6 @@
 
 ## Part 1: The boring task
 
-
 - [งานน่าเบื่อประจำวัน](exercises/explore-your-boring-task.md)
 
 ## Part 2: เอไอคู่ใจในที่ทำงาน - Copilot Chat
