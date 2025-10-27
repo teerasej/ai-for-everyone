@@ -1,11 +1,13 @@
 
 # AI for Everyone
 
-1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EQ2Luu3h7WtLi0U-U9V1ZLUB6DT_KDl3DeLV8ZGofIaniQ)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EXum5yE7J4xNuJ0-ZaSTGr0BQ7k_jRdx6AEvX2XJ5wFQ4w?e=Bbsy0q)
+1. [แนะนำตัวกันหน่อย](https://app.sli.do/event/b4ogH1VGYH6GqE9vtu7kpd)
+2. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EQ2Luu3h7WtLi0U-U9V1ZLUB6DT_KDl3DeLV8ZGofIaniQ)
+3. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EXum5yE7J4xNuJ0-ZaSTGr0BQ7k_jRdx6AEvX2XJ5wFQ4w?e=Bbsy0q)
 
 
 ## Part 1: The boring task
+
 
 - [งานน่าเบื่อประจำวัน](exercises/explore-your-boring-task.md)
 
