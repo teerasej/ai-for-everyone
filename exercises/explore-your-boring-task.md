@@ -1,5 +1,7 @@
 ## ระบุและแบ่งปันงานประจำวันที่น่าเบื่อของพวกเรา
 
+> สามารถเข้าไปใส่ไอเดียได้ที่นี่เลย https://app.sli.do/event/ceyHiQ6wh7rVmSzAi7R3nr
+
 ![](https://cdn.midjourney.com/f9713d88-cd7b-4a65-a48e-eea972f37f0b/0_0.png)
 
 อุปกรณ์: Post-it, ปากกา/ดินสอ
