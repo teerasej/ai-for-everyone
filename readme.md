@@ -13,7 +13,9 @@
 ## ตอนที่ 2: เอไอคู่ใจในที่ทำงาน - Copilot Chat
 
 แบบฝึกหัด 1. [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
+
 แบบฝึกหัด 2. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
+
 แบบฝึกหัด 3. [(Optional) ใช้งานโหมด Work](exercises/copilot-work-mode.md)
 
 ## ตอนที่ 3: AI ใน Microsoft 365
