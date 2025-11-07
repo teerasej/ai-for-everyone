@@ -22,7 +22,7 @@
 
 - สถานการณ์จำลอง: [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
-## ตอนที่ 4: AI Agent
+## Optional: AI Agent
 
 - [สร้าง AI Agent มาช่วยทำงาน](exercises/ai-agent.md)
 
