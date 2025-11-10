@@ -5,6 +5,7 @@
 
 1. ใช้ Network T-ROOM รหัสผ่าน rainflower
 2. ถ่ายรูป account ของตัวเองที่อาจารย์แจกให้ 
+3. ลงชื่อเข้าใช้ Microsoft 365 บนเว็บเบราว์เซอร์ [https://www.office.com](https://www.office.com) ด้วย account ที่ได้รับ
 
 ## อ้างอิง
 
