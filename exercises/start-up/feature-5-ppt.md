@@ -1,7 +1,7 @@
 
 
 
-# Feature 5: สร้าง Presentation
+# Feature 4: สร้าง Presentation
 
 > ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
 

@@ -1,6 +1,6 @@
 
 
-# Feature 4: ทำงานกับ Excel 
+# Feature 3: ทำงานกับ Excel 
 
 > ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
 
@@ -38,7 +38,10 @@
 ## 3. สั่งให้ Copilot ช่วยวิเคราะห์ข้อมูล
 
 1. ใช้คำสั่ง prompt ด้านล่างเพื่อให้ Copilot วิเคราะห์ data insight 
-
+   
+   ```
+   วิเคราะห์ sheet ทัั้งหมด และบอก data insights ที่น่าสนใจหน่อย
+   ```
    ```
    Analyze this workbook and give me interesting data insights
    ```
@@ -48,11 +51,18 @@
    ```
    Create a bar chart of the top 5 products by revenue
    ```
+   ```
+   สร้างกราฟแท่งแสดงรายการสินค้ายอดขายสูงสุด 5 อันดับหน่อย
+   ```
+
 
 3. ใช้คำสั่ง prompt ด้านล่างเพื่อให้ Copilot สร้าง formular ในการคำนวณให้ 
 
    ```
    Create a formula to calculate the percentage of total revenue for each product
+   ```
+   ```
+   คิดสูตร formula คำนวนยอดขายของสินค้าแต่ละตัวเป็น percent ต่อยอดขายรวมของสินค้าทุกตัวให้หน่อย
    ```
 
 > Copilot อาจจะมีการเสนอตัวว่าสามารถใส่ formula ใน column ใหม่ได้ แต่จะเป็นการสร้างไฟล์ใหม่ให้ ดาวน์โหลดแทน และอาจจะไม่มี formula ในไฟล์สำเร็จที่สร้างให้
