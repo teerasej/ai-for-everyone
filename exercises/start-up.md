@@ -10,8 +10,8 @@
 
 ## ลองทำ
 
-1. [Feature 1: สรุปเอกสารให้เข้าใจง่าย](start-up/word-feature-1.md)
-2. [Feature 2: ให้ออกไอเดีย และแปลงเป็น Table](start-up/word-feature-2.md)
-3. [Feature 3: ทำงานกับ Excel](start-up/feature-4-excel.md)
-4. [Feature 4: สร้าง Presentation](start-up/feature-5-ppt.md)
+1. [Word](start-up/word-feature-1.md)
+2. [Excel](start-up/feature-4-excel.md)
+3. [PowerPoint](start-up/feature-5-ppt.md)
+4. [Outlook](start-up/feature-6-outlook.md)
 

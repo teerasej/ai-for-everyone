@@ -10,7 +10,7 @@
 3. แบบฝึกหัดนี้ เราจะใช้คำสั่ง prompt ต่อไปนี้สำหรับสั่งงาน copilot
 
    ```
-      a corporate cleaning service named "Contoso Cleaning" in Bangkok. The presentation should include the benefits of using a professional cleaning business.
+   a corporate cleaning service named "Contoso Cleaning" in Bangkok. The presentation should include the benefits of using a professional cleaning business.
    ```
 
    ### สำหรับผู้ใช้ที่มี License
