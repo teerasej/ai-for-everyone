@@ -1,7 +1,7 @@
 
 
 
-# Feature 4: สร้าง Presentation
+# PowerPoint: สร้าง Presentation ด้วย AI
 
 > ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
 
