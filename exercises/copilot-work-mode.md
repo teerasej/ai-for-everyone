@@ -9,7 +9,7 @@
 3. เราจะเห็นเข้ามาที่ Copilot Chat ตามภาพ
 
 
-![ภาพตัวอย่าง](../images/copilot/2025-08-21_22-17-41.png)
+![ภาพตัวอย่าง](../images/copilot/m365-copilot-chat.png)
 
 ### เช็คก่อน เราใช้ Copilot แบบ free หรือแบบ license
 
