@@ -14,7 +14,7 @@
 
 แบบฝึกหัด 2. [เริ่มต้นใช้ Copilot Chat](exercises/copilot-chat.md)
 
-แบบฝึกหัด 3. [(Optional) ใช้งานโหมด Work](exercises/copilot-work-mode.md)
+แบบฝึกหัด 3. [ใช้งานโหมด Work](exercises/copilot-work-mode.md)
 
 ## ตอนที่ 2: AI ใน Microsoft 365
 
