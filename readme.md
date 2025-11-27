@@ -21,11 +21,11 @@
 
 ## ตอนที่ 3: AI ใน Microsoft 365
 
-- สถานการณ์จำลอง: [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
+- แบบฝึกหัดที่ 4: [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
 
 ## Optional: AI Agent
 
-- [สร้าง AI Agent มาช่วยทำงาน](exercises/ai-agent.md)
+- แบบฝึกหัดที่ 5:[สร้าง AI Agent มาช่วยทำงาน](exercises/ai-agent.md)
 
 
 
