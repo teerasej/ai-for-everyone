@@ -26,10 +26,10 @@
 2. แบบฝึกหัด 2: [PowerPoint](exercises/start-up/feature-5-ppt.md)
 3. แบบฝึกหัด 3: [Outlook](exercises/start-up/feature-6-outlook.md)
 
-## Optional: AI Agent
+## ตอนที่ 3: AI Agent
 
-- [สร้าง AI Agent มาช่วยทำงาน](exercises/ai-agent.md)
-
+1. แบบฝึกหัด 1:
+2. แบบฝึกหัด 2:[สร้าง AI Agent มาช่วยทำงาน](exercises/ai-agent.md)
 
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
