@@ -1,15 +1,12 @@
 
 # AI for Everyone
 
-## เช็คก่อนเริ่ม
+## ทำก่อนเริ่ม
 
-1. ใช้ Network T-ROOM รหัสผ่าน rainflower
-2. ถ่ายรูป account ของตัวเองที่อาจารย์แจกให้ 
-3. ลงชื่อเข้าใช้ Microsoft 365 บนเว็บเบราว์เซอร์ [https://www.office.com](https://www.office.com) ด้วย account ที่ได้รับ
+1. ลงชื่อเข้าใช้ Microsoft 365 บนเว็บเบราว์เซอร์ [https://www.office.com](https://www.office.com) ด้วย account ที่ได้รับ
 
 ## อ้างอิง
 
-   
 1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EQ2Luu3h7WtLi0U-U9V1ZLUB6DT_KDl3DeLV8ZGofIaniQ)
 2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EXum5yE7J4xNuJ0-ZaSTGr0BQ7k_jRdx6AEvX2XJ5wFQ4w?e=Bbsy0q)
 
