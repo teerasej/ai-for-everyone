@@ -20,9 +20,11 @@
 
 แบบฝึกหัด 3. [(Optional) ใช้งานโหมด Work](exercises/copilot-work-mode.md)
 
-## ตอนที่ 3: AI ใน Microsoft 365
+## ตอนที่ 2: AI ใน Microsoft 365
 
-- สถานการณ์จำลอง: [วางแผนธุรกิจผ่าน Microsoft 365 Copilot](exercises/start-up.md)
+1. แบบฝึกหัด 1: [Word](exercises/start-up/word-feature-1.md)
+2. แบบฝึกหัด 2: [PowerPoint](exercises/start-up/feature-5-ppt.md)
+3. แบบฝึกหัด 3: [Outlook](exercises/start-up/feature-6-outlook.md)
 
 ## Optional: AI Agent
 

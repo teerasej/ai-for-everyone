@@ -11,7 +11,6 @@
 ## ลองทำ
 
 1. [Word](start-up/word-feature-1.md)
-2. [Excel](start-up/feature-4-excel.md)
-3. [PowerPoint](start-up/feature-5-ppt.md)
-4. [Outlook](start-up/feature-6-outlook.md)
+2. [PowerPoint](start-up/feature-5-ppt.md)
+3. [Outlook](start-up/feature-6-outlook.md)
 
