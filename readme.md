@@ -8,14 +8,11 @@
 ## อ้างอิง
 
 1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EQ2Luu3h7WtLi0U-U9V1ZLUB6DT_KDl3DeLV8ZGofIaniQ)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://nextflowth-my.sharepoint.com/:u:/g/personal/teerasej_nextflowth_onmicrosoft_com/EXum5yE7J4xNuJ0-ZaSTGr0BQ7k_jRdx6AEvX2XJ5wFQ4w?e=Bbsy0q)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/Exercise_file.zip)
 
 
-## ตอนที่ 1: The boring task
 
-- [งานน่าเบื่อประจำวัน](https://app.sli.do/event/iSjPPVM4rJNqGZs46AzSNT)
-
-## ตอนที่ 2: เอไอคู่ใจในที่ทำงาน - Copilot Chat
+## ตอนที่ 1: เอไอคู่ใจในที่ทำงาน - Copilot Chat
 
 แบบฝึกหัด 1. [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
 
