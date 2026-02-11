@@ -28,8 +28,8 @@
 
 ## ตอนที่ 3: AI Agent
 
-1. แบบฝึกหัด 1:
-2. แบบฝึกหัด 2:[สร้าง AI Agent มาช่วยทำงาน](exercises/ai-agent.md)
+1. แบบฝึกหัด 1:[ทดสอบใช้ AI Agent พร้อมใช้](exercises/agent/test-existing-ai-agent.md)
+2. แบบฝึกหัด 2:[สร้าง AI Agent มาช่วยทำงาน](exercises/agent/create-first-ai-agent.md)
 
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
