@@ -7,7 +7,7 @@
 
 ## อ้างอิง
 
-1. [ไฟล์เอกสารนำเสนอ](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EQ2Luu3h7WtLi0U-U9V1ZLUB6DT_KDl3DeLV8ZGofIaniQ)
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/presentation.pdf)
 2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/Exercise_file.zip)
 
 
