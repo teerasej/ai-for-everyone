@@ -1,4 +1,4 @@
-# Exercise 1 — Copilot Chat
+#  Copilot Chat
 
 ## Scenario 1: Situation Summary ด้วย Copilot Chat
 

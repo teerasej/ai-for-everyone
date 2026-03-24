@@ -19,10 +19,11 @@
 แบบฝึกหัด 1. [Copilot Chat](exercises/use-case/exercise-1.md)
 แบบฝึกหัด 2. [Copilot Create](exercises/copilot-create-mode.md)
 แบบฝึกหัด 3. [Word](exercises/use-case/exercise-2.md)
-แบบฝึกหัด 4. [Excel](exercises/use-case/exercise-3.md)
-แบบฝึกหัด 5: [Outlook & Teams](exercises/use-case/exercise-4.md)
-แบบฝึกหัด 6: [Analyst Agent](exercises/use-case/exercise-5.md)
-แบบฝึกหัด 7: [Researcher Agent](exercises/use-case/exercise-6.md)
+แบบฝึกหัด 4. [Powerpoint](exercises/use-case/exercise-3.md)
+แบบฝึกหัด 5. [Excel](exercises/use-case/exercise-4.md)
+แบบฝึกหัด 6: [Outlook & Teams](exercises/use-case/exercise-5.md)
+แบบฝึกหัด 7: [Analyst Agent](exercises/use-case/exercise-6.md)
+แบบฝึกหัด 8: [Researcher Agent](exercises/use-case/exercise-7.md)
 
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
