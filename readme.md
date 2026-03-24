@@ -7,8 +7,8 @@
 
 ## ไฟล์สำหรับ workshop
 
-1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/presentation.pdf)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/Exercise_file.zip)
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/presentation.pdf)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/CPAll-copilot.zip)
 
 
 
