@@ -16,14 +16,13 @@
 
 ขั้นตอนที่เตรียมตัว [อัพโหลดไฟล์เข้า OneDrive](exercises/copilot-upload-file.md)
 
-1. [Copilot Chat](exercises/use-case/exercise-1.md)
-2. [Copilot Create](exercises/copilot-create-mode.md)
-3. [Word](exercises/use-case/exercise-2.md)
-4. [Powerpoint](exercises/use-case/exercise-3.md)
-5. [Excel](exercises/use-case/exercise-4.md)
-6. [Outlook & Teams](exercises/use-case/exercise-5.md)
-7. [Analyst Agent](exercises/use-case/exercise-6.md)
-8. [Researcher Agent](exercises/use-case/exercise-7.md)
+1. [Copilot Chat & Create](exercises/use-case/exercise-1.md)
+2. [Word](exercises/use-case/exercise-2.md)
+3. [Powerpoint](exercises/use-case/exercise-3.md)
+4. [Excel](exercises/use-case/exercise-4.md)
+5. [Outlook & Teams](exercises/use-case/exercise-5.md)
+6. [Analyst Agent](exercises/use-case/exercise-6.md)
+7. [Researcher Agent](exercises/use-case/exercise-7.md)
 
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต

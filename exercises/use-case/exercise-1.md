@@ -66,3 +66,21 @@
 แนะนำขั้นตอนที่จำเป็นต้องทำก่อนเข้าแต่ละ meeting
 และแนะนำไฟล์ที่สามารถใช้เตรียมตัวสำหรับ meeting เหล่านั้น
 ```
+
+## Scenario 3: สร้าง Infographic ด้วย Copilot Create
+
+1. กดเลือกเมนู Create
+
+![ภาพตัวอย่าง](../../images/copilot/2025-08-21_22-17-41.png)
+
+2. จากรายการไอเดียด้านบน ให้เลือก **Create an Image**
+3. ในช่อง Prompt Box ให้ copy prompt ด้านล่างไปวาง เพื่อใช้กำหนดเนื้อหาของรูปภาพ
+   ```
+   Place the character from the reference image into an illustrated corporate meeting room with the character presenting ideas to an attentive group of investors in pastel colors.
+   ```
+
+4. กดปุ่ม **+ Add Content** ด้านล่างซ้าย ของ Prompt box > เลือก **Add an Image** > เลือกไฟล์รูปภาพ **character.png** ที่ได้จากไฟล์ zip ในเวิร์คชอปนี้ 
+    ![alt text](../../images/copilot/2026-03-25_22-45-45.png)
+5. ในช่อง **Add Style** ให้เลือก Style รูปที่ต้องการ
+6. กดปุ่ม **Create** และรอผลลัพธ์
+7. เมื่อได้ผลลัพธ์แล้ว เราสามารถกดที่ภาพเพื่อดูภาพขนาดใหญ่ขึ้น หรือกด Download เพื่อดาวน์โหลดภาพได้
