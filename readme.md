@@ -7,7 +7,7 @@
 
 ## ไฟล์สำหรับ workshop
 
-1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/presentation.pdf)
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/presentation-cpall.pdf)
 2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/CPAll-copilot.zip)
 
 
