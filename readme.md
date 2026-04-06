@@ -23,6 +23,7 @@
 5. [Outlook & Teams](exercises/use-case/exercise-5.md)
 6. [Analyst Agent](exercises/use-case/exercise-6.md)
 7. [Researcher Agent](exercises/use-case/exercise-7.md)
+8. [Surveys Agent](exercises/agent/test-existing-ai-agent.md)
 
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต
