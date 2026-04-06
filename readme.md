@@ -7,8 +7,8 @@
 
 ## ไฟล์สำหรับ workshop
 
-1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/preparing-for-gpo-10-04-2026/files/presentation-cpall.pdf)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/preparing-for-gpo-10-04-2026/files/Exercise_file.zip)
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/GPO/presentation.pdf)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/GPO/Nextflow-M365-Copilot-GPO-files.zip)
 
 
 
