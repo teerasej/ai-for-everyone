@@ -2,7 +2,7 @@
 
 ## Step 0: เตรียมไฟล์เอกสารต้นฉบับ
 
-1. อัพโหลดไฟล์ `CPALL_Lab_Word_OpsReport_Source.docx` ที่ได้จาก Zip ไฟล์ ขึ้นไปบน OneDrive ของเรา
+1. อัพโหลดไฟล์ `GPO_Lab_Word_OpsReport_Source.docx` ที่ได้จาก Zip ไฟล์ ขึ้นไปบน OneDrive ของเรา
 2. ทิ้งเวลาไว้สักพัก ก่อนเริ่มขั้นตอนถัดไป เพื่อให้ Microsoft 365 ประมวลผลไฟล์และสร้าง index สำหรับ Copilot ให้เรียบร้อย
 
 
@@ -21,14 +21,14 @@
 ใช้ข้อมูลในเอกสารนี้ (Raw Notes + Action Draft) 
 ```
 
-2. จากนั้นพิมพ์ "/" เพื่อเรียกหน้าจอ attach ไฟล์ ให้ค้นหา และเลือกไฟล์ `CPALL_Lab_Word_OpsReport_Source.docx` ที่เราอัพโหลดไว้ใน OneDrive
+2. จากนั้นพิมพ์ "/" เพื่อเรียกหน้าจอ attach ไฟล์ ให้ค้นหา และเลือกไฟล์ `GPO_Lab_Word_OpsReport_Source.docx` ที่เราอัพโหลดไว้ใน OneDrive
 
 3. copy prompt ต่อไปนี้ไปวางต่อใน prompt box และกดปุ่ม Generate
 
 ```
 ร่าง "รายงานสรุปผู้บริหาร" ความยาว 1–2 หน้า
 โครงต้องมี: Executive summary (5 bullets) / KPI highlights / Issues & root causes / 2-week mitigation plan (owner+due) / Requests to leadership
-ภาษาไทย ทางการ กระชับ อ่านง่าย
+ภาษาไทย ทางการ กระชับ อ่านง่าย เหมาะสำหรับผู้บริหารของ อภ.
 ```
 
 ภาพตัวอย่าง prompt จะประมาณด้านล่าง ก่อนกดปุ่มส่ง 
@@ -81,7 +81,7 @@
 ## Step 5: บันทึกไฟล์
 
 1. ตรวจสอบความเรียบร้อยของรายงานและตาราง
-2. ตั้งชื่อไฟล์ใหม่: `OpsReport_ExecutiveSummary.docx`
+2. ตั้งชื่อไฟล์ใหม่: `GPO_OpsReport_ExecutiveSummary.docx`
 
 
 ## Expected Output (สิ่งที่ควรได้)

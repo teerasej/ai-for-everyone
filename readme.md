@@ -1,5 +1,5 @@
 
-# AI for Everyone
+# AI for Everyone — GPO Workshop
 
 ## มาก่อนเวลาใช่ไหม? ลองเช็คดูว่าเราพร้อมสำหรับเวิร์คชอปนี้หรือยัง
 
@@ -7,8 +7,8 @@
 
 ## ไฟล์สำหรับ workshop
 
-1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/presentation-cpall.pdf)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/cpall-1/files/CPAll-copilot.zip)
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/preparing-for-gpo-10-04-2026/files/presentation-cpall.pdf)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/preparing-for-gpo-10-04-2026/files/Exercise_file.zip)
 
 
 
@@ -21,9 +21,9 @@
 3. [Powerpoint](exercises/use-case/exercise-3.md)
 4. [Excel](exercises/use-case/exercise-4.md)
 5. [Outlook & Teams](exercises/use-case/exercise-5.md)
-6. [Analyst Agent](exercises/use-case/exercise-6.md)
-7. [Researcher Agent](exercises/use-case/exercise-7.md)
-8. [Surveys Agent](exercises/agent/test-existing-ai-agent.md)
+6. [Surveys Agent](exercises/agent/test-existing-ai-agent.md)
+7. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+
 
 
 ## แหล่งข้อมูลอ้างอิง และติดตามอัพเดต

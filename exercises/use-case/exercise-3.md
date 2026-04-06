@@ -15,7 +15,7 @@
       ![alt text](../start-up/powerpoint/2026-02-09_14-46-42.png)
    2. เลือกคำสั่ง "Create a new presentation with file" 
       ![alt text](../start-up/powerpoint/2026-02-09_14-46-48.png)
-   3. ค้นหาไฟล์ **OpsReport_ExecutiveSummary.docx** ที่เราบันทึกไว้ใน exercise ที่แล้ว และเลือกไฟล์ เพื่อใส่ลงไปใน prompt
+   3. ค้นหาไฟล์ **GPO_OpsReport_ExecutiveSummary.docx** ที่เราบันทึกไว้ใน exercise ที่แล้ว และเลือกไฟล์ เพื่อใส่ลงไปใน prompt
       ![alt text](../start-up/powerpoint/2026-02-09_14-47-01.png)
    4. กดปุ่มส่ง
     
