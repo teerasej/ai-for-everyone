@@ -21,8 +21,8 @@
 3. [Powerpoint](exercises/use-case/exercise-3.md)
 4. [Excel](exercises/use-case/exercise-4.md)
 5. [Outlook & Teams](exercises/use-case/exercise-5.md)
-6. [Surveys Agent](exercises/agent/test-existing-ai-agent.md)
-7. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+6. [Create First AI Agent](exercises/agent/create-first-ai-agent.md)
+
 
 
 

@@ -1,6 +1,6 @@
 #  Copilot Chat
 
-## Scenario 1: สรุปสถานการณ์การผลิตและกระจายยา ด้วย Copilot Chat
+## Scenario 1: สรุปสถานการณ์งานบริการลูกค้าและงานขาย ของ Tokio Marine Life Thailand ด้วย Copilot Chat
 
 ### Step 1: เปิด Copilot Chat
 
@@ -11,7 +11,7 @@
 
 ### Step 2: Executive Summary - สรุปแบบ What/Why/So what/Now what
 
-เราจะใช้คำสั่ง prompt สำหรับการสรุป Raw note จากหน้างานของ อภ. เพื่อเรียบเรียงให้เข้าใจสถานการณ์ และสรุปรายการแก่หัวหน้าระดับสูงได้ 
+เราจะใช้คำสั่ง prompt สำหรับการสรุป Raw note จากหน้างานของ Tokio Marine Life Thailand เพื่อเรียบเรียงให้เข้าใจสถานการณ์ด้านการขายและบริการลูกค้า และสรุปรายการแก่หัวหน้าระดับสูงได้ 
 
 1. ก๊อปปี้ prompt ข้างล่างนี้ไปวางในช่องแชท
 
@@ -29,12 +29,12 @@
 2. จากนั้น copy ข้อความด้านล่างที่เป็น Raw note จากหัวหน้างานไปวางไว้ด้านล่าง
 
 ```
-• ช่วงวันที่: 1–28 มี.ค. 2026 (ข้อมูลรวม 4 หน่วยงาน: โรงงานรังสิต, QA/QC กลาง, คลังราชเทวี, คลังขอนแก่น)
-• ประเด็นหลัก: 1) การส่งมอบยากลุ่ม Antibiotic ล่าช้า 2 วัน (11 และ 19 มี.ค.) สาเหตุหลักคือการปล่อยล็อตจาก QA ช้ากว่าปกติ + รถควบคุมอุณหภูมิไม่พอช่วง peak
-• OT ทีมคลังเพิ่มขึ้นในวันเดียวกัน เพื่อเร่งแพ็กและจัดส่ง
-• อัตราเติมเต็มคำสั่งซื้อของคลังขอนแก่นลดลง 2 ครั้ง (8 และ 22 มี.ค.) จากวัตถุดิบเข้าสายการผลิตไม่ตามแผน + lead time ผู้ขายยืด
-• เหตุการณ์ความปลอดภัย: near-miss 2 ครั้งในพื้นที่แพ็กยา และ incident 1 ครั้งจากการเคลื่อนย้ายพาเลต
-• ข้อเสนอเบื้องต้น: จัดรอบปล่อยล็อต QA วันละ 2 รอบ, เพิ่มรถควบคุมอุณหภูมิสำรอง, และทำ 5S พื้นที่แพ็กยา
+• ช่วงวันที่: 1–28 เม.ย. 2026 (ข้อมูลรวม 4 ช่องทาง/ทีม: ช่องทางตัวแทน, ช่องทางธนาคาร, ทีมบริการลูกค้า, ทีมพิจารณาเคลม)
+• ช่องทางตัวแทน: ยอด New Policy ต่ำกว่าเป้า 7% ใน 2 เขตขาย (เขตกลาง, เขตเหนือ) ตัวแทน Active ลดลง 4% เทียบเดือนก่อน
+• ช่องทางธนาคาร: lead เข้าระบบเพิ่ม 12% (1,680 leads) แต่ Conversion Rate ลดลงจาก 18% เหลือ 14%
+• ทีมบริการลูกค้า: complaint เรื่องเอกสารเคลมไม่ครบเพิ่มขึ้น 18% เทียบเดือนก่อน อีเมลค้างคิวเฉลี่ย 2.3 วัน (เป้า < 1 วัน)
+• ทีมพิจารณาเคลม: Median Claim Turnaround Time เพิ่มจาก 4.2 วัน เป็น 5.1 วัน เคลมค้างเกิน 7 วัน: 28 ราย (เดือนก่อน 17 ราย)
+• ข้อเสนอเบื้องต้น: จัดทำ checklist เอกสารก่อนยื่นเคลม, ทำ playbook follow-up lead ภายใน 48 ชั่วโมง, จัด training product knowledge ช่องทางธนาคาร
 ```
 3. กดปุ่มส่ง และรอตรวจสอบที่ Copilot สรุปสถานการณ์ให้เรา
 
@@ -76,7 +76,7 @@
 2. จากรายการไอเดียด้านบน ให้เลือก **Create an Image**
 3. ในช่อง Prompt Box ให้ copy prompt ด้านล่างไปวาง เพื่อใช้กำหนดเนื้อหาของรูปภาพ
    ```
-   Place the character from the reference image into an illustrated modern pharmaceutical laboratory or hospital setting, with the character confidently presenting a data chart to a group of healthcare professionals, in clean pastel colors.
+   Place the character from the reference image into an illustrated modern life insurance office or financial advisory setting, with the character confidently presenting a data chart to a group of insurance professionals, in clean pastel colors.
    ```
 
 4. กดปุ่ม **+ Add Content** ด้านล่างซ้าย ของ Prompt box > เลือก **Add an Image** > เลือกไฟล์รูปภาพ **character.png** ที่ได้จากไฟล์ zip ในเวิร์คชอปนี้ 

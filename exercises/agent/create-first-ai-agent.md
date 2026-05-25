@@ -13,7 +13,7 @@
 4. ขั้นตอนแรก Copilot จะถามให้เราอธิบายว่า Agent จะทำอะไรได้บ้าง ให้คัดลอกข้อความด้านล่างไปตอบให้แชท และกด enter
     
     ```
-    Help GPO staff quickly find and understand the latest press releases and announcements from GPO's official website
+    Help Tokio Marine Life Thailand staff quickly find and understand insurance products, policy information, claim processes, and company announcements from the official website
     ```
 
 5. Copilot จะคิดชื่อ และรายละเอียดของ Agent มาให้เรา ให้กดดูในส่วนของ Configure จากด้านบน ซึ่งเราสามารถแก้ไขชื่อ และรายละเอียดได้ตามต้องการ
@@ -24,7 +24,7 @@
     1. เราสามารถแจ้ง URL ของ website ที่ต้องการให้ Agent ใช้เป็นแหล่งข้อมูลได้
 
     ```
-    https://www.gpo.or.th/press_release
+    https://www.tokiomarine.co.th/
     ```
     2. เลือกเปิด **Only use specified sources** เพื่อให้แน่ใจว่า Agent จะใช้แหล่งข้อมูลที่เรากำหนดเท่านั้น
     ![alt text](2026-02-09_15-12-06.png)
@@ -33,7 +33,7 @@
 
 11. เมื่อให้ข้อมูลพอสมควรแล้ว เราสามารถทดสอบคุยกับ agent ได้เลย **จากห้องแชททางขวาได้เลย**
     ```
-    ข่าวประชาสัมพันธ์ล่าสุดขององค์การเภสัชกรรมมีเรื่องอะไรบ้าง
+    ผลิตภัณฑ์ประกันชีวิตของโตเกียว มารีนมีแบบอะไรบ้าง
     ```
 
 8.  เมื่อพอใจแล้ว เราสามารถกดปุ่ม Create ด้านบนขวาของหน้าจอ Create Agent ได้
