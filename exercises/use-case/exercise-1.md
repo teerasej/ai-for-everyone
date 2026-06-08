@@ -5,9 +5,7 @@
 ### Step 1: เปิด Copilot Chat
 
 1. เปิด [Copilot Chat](https://m365.cloud.microsoft/chat) หรือ[ที่นี่](https://office.com)
-2. ด้านบนของหน้าจอ chat ให้กดเลือกโหมด **Web** 
-
-![alt text](<../../images/copilot/Screenshot 2568-08-22 at 00.18.40.png>)
+2. ด้านบนของหน้าจอ chat ให้กดเลือกโหมด **Work IQ** 
 
 ### Step 2: Executive Summary - สรุปแบบ What/Why/So what/Now what
 
