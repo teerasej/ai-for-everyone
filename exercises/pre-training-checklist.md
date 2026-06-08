@@ -11,7 +11,7 @@
   - วิธีตรวจสอบ: ไปที่ [https://m365copilot.com](https://m365copilot.com) 
     1. เช็คในส่วนด้านบนว่ามีโหมด 2 แบบให้เลือกหรือไม่ (Work และ Web) (บางกรณีอาจจะแค่แสดงเป็น icon 2 อัน)
     2. เช็คด้านขวาว่าเห็นรายการเมนูของ Agent หรือไม่ (ถ้าเห็นแสดงว่าได้สิทธิ์ใช้งานแล้ว)
-    ![alt text](../images/pre-training-checklist/check-feature.png)
+    ![alt text](https://raw.githubusercontent.com/teerasej/ai-for-everyone/tokio-marine-life/images/pre-training-checklist/check-feature.png)
 
 
 > **⚠️หมายเหตุ:** หากตรวจสอบแล้วพบว่ามีรายการใดที่ยังไม่พร้อม กรุณาติดต่อ **IT Admin** หรือ **ผู้ดูแลระบบขององค์กร** ล่วงหน้าอย่างน้อย **1-2 วันทำการ** ก่อนวันอบรม เพื่อให้สามารถแก้ไขได้ทันเวลา
@@ -28,9 +28,9 @@
 
 
 #### แบบที่ 1: ปุ่ม Copilot บน Ribbon 
-![alt text](../images/copilot/2025-08-23_22-01-09.png)
+![alt text](https://raw.githubusercontent.com/teerasej/ai-for-everyone/tokio-marine-life/images/copilot/2025-08-23_22-01-09.png)
 #### แบบที่ 2: ไอคอน Copilot ที่มุมขวาล่าง 
-![alt text](../images/pre-training-checklist/copilot-icon-bottom-right.png)
+![alt text](https://raw.githubusercontent.com/teerasej/ai-for-everyone/tokio-marine-life/images/pre-training-checklist/copilot-icon-bottom-right.png)
 
 ### Excel
 - [ ] เปิด [https://excel.new](https://excel.new) หรือเปิด Excel บนเครื่อง
@@ -54,7 +54,7 @@
 > **⚠️ หมายเหตุ:** ถ้าไม่เห็นตัวเลือก Create Agent หรือเข้าหน้า Agent Builder ไม่ได้ ให้แจ้ง IT Admin ตรวจสอบสิทธิ์การใช้งานล่วงหน้า เนื่องจากฟีเจอร์นี้อาจถูกจำกัดโดย Policy ขององค์กร
 
 
-![alt text](../images/pre-training-checklist/check-agent-builder.png)
+![alt text](https://raw.githubusercontent.com/teerasej/ai-for-everyone/tokio-marine-life/images/pre-training-checklist/check-agent-builder.png)
 
 ---
 
