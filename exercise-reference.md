@@ -64,7 +64,7 @@ Place the character from the reference image into an illustrated modern pharmace
 > **ไฟล์ต้นฉบับ:** `GPO_Lab_Word_OpsReport_Source.docx`
 > **ไฟล์ผลลัพธ์:** `GPO_OpsReport_ExecutiveSummary.docx`
 
-### Step 1 — ร่างรายงานฉบับแรก (ใน Word เปล่า)
+### Practice 1 — ร่างรายงานฉบับแรก (ใน Word เปล่า)
 
 **Prompt (พิมพ์ใน Draft with Copilot box จากนั้น attach ไฟล์ด้วย `/`):**
 
@@ -82,7 +82,7 @@ Place the character from the reference image into an illustrated modern pharmace
 - 2-week plan
 - Requests
 
-### Step 2 — ปรับคุณภาพภาษา Executive Summary
+### Practice 2 — ปรับคุณภาพภาษา Executive Summary
 
 **เลือกข้อความใน Executive Summary แล้วใช้ prompt:**
 
@@ -94,7 +94,7 @@ Place the character from the reference image into an illustrated modern pharmace
 - เพิ่มประโยค "ผลกระทบ" ให้ชัดเจนในแต่ละ issue
 ```
 
-### Step 3 — สร้างตาราง Action Plan (ต่อท้ายเอกสาร)
+### Practice 3 — สร้างตาราง Action Plan (ต่อท้ายเอกสาร)
 
 **Prompt:**
 
@@ -128,7 +128,7 @@ Place the character from the reference image into an illustrated modern pharmace
 
 > **ไฟล์:** `GPO_Lab_Excel_KPI_28days.xlsx`
 
-### Step 1 — ภาพรวมและแนวโน้ม (Sheet: Summary)
+### Practice 1 — ภาพรวมและแนวโน้ม (Sheet: Summary)
 
 **Prompt:**
 
@@ -138,7 +138,7 @@ Place the character from the reference image into an illustrated modern pharmace
 พร้อมบอกแนวโน้มที่น่าสังเกต
 ```
 
-### Step 2 — Highlight Anomaly ด้วยสี (Sheet: KPI_Raw)
+### Practice 2 — Highlight Anomaly ด้วยสี (Sheet: KPI_Raw)
 
 **Prompt 1 — ใส่สีพื้นหลัง:**
 
@@ -156,7 +156,7 @@ Place the character from the reference image into an illustrated modern pharmace
 ช่วยสรุปเป็นตารางสั้น ๆ เป็น sheet ชื่อ Anomaly 
 ```
 
-### Step 3 — โฟกัสประเด็นสำคัญ
+### Practice 3 — โฟกัสประเด็นสำคัญ
 
 **Prompt:**
 

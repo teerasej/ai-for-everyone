@@ -1,13 +1,13 @@
-#  Copilot Chat
+# Copilot Chat
 
 ## Scenario 1: สรุปสถานการณ์งานบริการลูกค้าและงานขาย ของ Tokio Marine Life Thailand ด้วย Copilot Chat
 
-### Step 1: เปิด Copilot Chat
+### Practice 1: เปิด Copilot Chat
 
 1. เปิด [Copilot Chat](https://m365.cloud.microsoft/chat) หรือ[ที่นี่](https://office.com)
 2. ด้านบนของหน้าจอ chat ให้กดเลือกโหมด **Work IQ** 
 
-### Step 2: Executive Summary - สรุปแบบ What/Why/So what/Now what
+### Practice 2: Executive Summary - สรุปแบบ What/Why/So what/Now what
 
 เราจะใช้คำสั่ง prompt สำหรับการสรุป Raw note จากหน้างานของ Tokio Marine Life Thailand เพื่อเรียบเรียงให้เข้าใจสถานการณ์ด้านการขายและบริการลูกค้า และสรุปรายการแก่หัวหน้าระดับสูงได้ 
 
@@ -36,7 +36,7 @@
 ```
 3. กดปุ่มส่ง และรอตรวจสอบที่ Copilot สรุปสถานการณ์ให้เรา
 
-### Step 3: ขอ "เวอร์ชันสำหรับผู้บริหาร" ที่กระชับ
+### Practice 3: ขอ "เวอร์ชันสำหรับผู้บริหาร" ที่กระชับ
 
 ก๊อปปี้ prompt ข้างล่างนี้ไปวางในช่องแชท ในการคุยต่อเนื่อง และขอให้สรุปแบบย่อสำหรับผู้บริหารที่ต้องการข้อมูลสั้นๆ เพื่อการตัดสินใจทันที
 

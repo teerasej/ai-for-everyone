@@ -1,5 +1,5 @@
 
-# AI for Everyone — GPO Workshop
+# AI for Everyone — Tokio Marine Life Workshop
 
 ## มาก่อนเวลาใช่ไหม? ลองเช็คดูว่าเราพร้อมสำหรับเวิร์คชอปนี้หรือยัง
 
@@ -7,8 +7,8 @@
 
 ## ไฟล์สำหรับ workshop
 
-1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/GPO/presentation.pdf)
-2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/GPO/Nextflow-M365-Copilot-GPO-files.zip)
+1. [ไฟล์เอกสารนำเสนอ](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/TokioMarineLife/presentation.pdf)
+2. [ดาวน์โหลดไฟล์สำหรับใช้ในเวิร์คชอป (zip file)](https://github.com/teerasej/ai-for-everyone/raw/gpo-2026-01/files/TokioMarineLife/Nextflow-M365-Copilot-TokioMarineLife-files.zip)
 
 
 
