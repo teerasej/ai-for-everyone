@@ -1,5 +1,18 @@
 #   Auto Report Writing ด้วย Copilot in Word
 
+## Scenario
+
+แบบฝึกหัดนี้ให้ผู้เรียนใช้ Copilot ใน Word เพื่อร่างรายงานผู้บริหารจากเอกสารต้นฉบับ
+พร้อมปรับภาษาให้เป็นทางการและสร้าง Action plan ที่นำไปใช้งานจริงได้
+
+## Prerequisites
+
+1. มีไฟล์ `TML_Word_OpsReport_Source.docx` จากชุดเวิร์คชอป
+2. อัพโหลดไฟล์ขึ้น OneDrive และรอให้ระบบทำดัชนี
+3. เข้าใช้งาน Word บน Microsoft 365 ได้
+
+## Steps
+
 ## Step 0: เตรียมไฟล์เอกสารต้นฉบับ
 
 1. อัพโหลดไฟล์ `TML_Word_OpsReport_Source.docx` ที่ได้จาก Zip ไฟล์ ขึ้นไปบน OneDrive ของเรา
@@ -89,4 +102,10 @@
 - รายงานพร้อมส่งผู้บริหาร 1–2 หน้า
 - มีตารางแผน 2 สัปดาห์ชัดเจน
 - โทนเป็นทางการ แบบองค์กร
+
+## Checkpoint
+
+- โครงรายงานมีครบ: Executive summary, KPI highlights, Issues & root causes, 2-week plan, Requests
+- ภาษากระชับและเหมาะกับผู้บริหาร
+- ตาราง Action plan สอดคล้องกับข้อมูลต้นฉบับ
 

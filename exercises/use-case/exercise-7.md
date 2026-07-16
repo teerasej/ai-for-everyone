@@ -1,5 +1,18 @@
 # Business Research ด้วย Researcher Agent 
 
+## Scenario
+
+แบบฝึกหัดนี้ให้ผู้เรียนใช้ Researcher Agent สืบค้นและสรุปข้อมูลเชิงทางเลือก
+โดยผลลัพธ์สุดท้ายคือ Decision memo 1 หน้า ที่พร้อมเสนอผู้บริหาร
+
+## Prerequisites
+
+1. เข้าถึง Researcher Agent ได้ในสภาพแวดล้อมองค์กร
+2. เลือกโจทย์วิจัยที่ต้องการ 1 ข้อ
+3. เตรียมแนวทางตรวจสอบข้อจำกัดหรือข้อมูลที่ต้องยืนยันเพิ่มเติม
+
+## Steps
+
 ## Step-by-step
 
 1. เปิด Researcher Agent (ในประสบการณ์ที่องค์กรเปิดให้)
@@ -24,3 +37,14 @@
 3. ข้อเสนอแนะ (Recommended option)
 4. สิ่งที่ต้องตรวจสอบเพิ่มเติม/ข้อจำกัด
 ```
+
+## Checkpoint
+
+- Decision memo มี options อย่างน้อย 3 ทางเลือก
+- มี Pros/Cons และผลกระทบต่อ KPI อย่างชัดเจน
+- มี Recommended option พร้อมเหตุผลประกอบ
+
+## Expected Output
+
+- เอกสารสรุป Decision memo 1 หน้า
+- รายการข้อจำกัดหรือข้อมูลที่ต้องตรวจสอบเพิ่มเติม

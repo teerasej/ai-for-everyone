@@ -1,5 +1,18 @@
 #  Data Exploration with Copilot in Excel
 
+## Scenario
+
+แบบฝึกหัดนี้ให้ผู้เรียนใช้ Copilot ใน Excel เพื่อสำรวจข้อมูล KPI หาแนวโน้มและความผิดปกติ
+จากนั้นสรุปประเด็นสำคัญที่ผู้บริหารควรรู้เพื่อใช้ประกอบการตัดสินใจ
+
+## Prerequisites
+
+1. เปิดไฟล์ `TML_KPI_28days.xlsx` จาก OneDrive ได้
+2. มี sheet `Summary` และ `KPI_Raw` พร้อมใช้งาน
+3. เปิด Copilot Chat ใน Excel ได้
+
+## Steps
+
 ## Step 1: เปิดไฟล์ Excel และเปิด Copilot Chat
 
 1. จาก OneDrive ให้เปิดไฟล์ Excel ตัวอย่าง (TML_KPI_28days.xlsx)
@@ -53,3 +66,9 @@
 - รายการ trend
 - รายการ anomaly
 - Bullet insight เชิงข้อมูล 
+
+## Checkpoint
+
+- มีการสรุปภาพรวม 4 ช่องทาง/ทีมอย่างครบถ้วน
+- มีตารางหรือรายการ anomaly ที่ตรวจสอบย้อนกลับได้จากข้อมูล
+- มี 3 ประเด็นสำคัญพร้อมเหตุผลเชิงธุรกิจ

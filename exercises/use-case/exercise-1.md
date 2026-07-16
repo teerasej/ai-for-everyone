@@ -1,5 +1,18 @@
 # Copilot Chat
 
+## Scenario
+
+แบบฝึกหัดนี้ให้ผู้เรียนฝึกใช้ Copilot Chat เพื่อสรุปสถานการณ์เชิงธุรกิจจากข้อมูลหน้างาน
+โดยเป้าหมายคือได้สรุปที่พร้อมใช้ตัดสินใจ และต่อยอดเป็นภาพสื่อสารได้ทันที
+
+## Prerequisites
+
+1. เปิดใช้งานบัญชี Microsoft 365 ที่เข้าถึง Copilot ได้
+2. เตรียมข้อมูลตัวอย่างในโจทย์ให้พร้อม copy/paste
+3. เลือกโหมดให้ถูกต้องก่อนเริ่มแต่ละ Scenario
+
+## Steps
+
 ## Scenario 1: สรุปสถานการณ์งานบริการลูกค้าและงานขาย ของ Tokio Marine Life Thailand ด้วย Copilot Chat
 
 ### Practice 1: เปิด Copilot Chat
@@ -7,78 +20,107 @@
 1. เปิด [Copilot Chat](https://m365.cloud.microsoft/chat) หรือ[ที่นี่](https://office.com)
 2. ด้านบนของหน้าจอ chat ให้กดเลือกโหมด **Work IQ** 
 
-### Practice 2: Executive Summary - สรุปแบบ What/Why/So what/Now what
+### Practice 2: ทดลองใช้ Prompt Engineering ด้วย prompt ต้นฉบับจากสไลด์อ้างอิง
 
-เราจะใช้คำสั่ง prompt สำหรับการสรุป Raw note จากหน้างานของ Tokio Marine Life Thailand เพื่อเรียบเรียงให้เข้าใจสถานการณ์ด้านการขายและบริการลูกค้า และสรุปรายการแก่หัวหน้าระดับสูงได้ 
+เป้าหมายของ Practice นี้คือฝึกเทคนิคจากสไลด์ 19-22 แบบต่อเนื่อง โดยใช้ prompt แบบ exact text ตามต้นฉบับทุกบรรทัด
 
-1. ก๊อปปี้ prompt ข้างล่างนี้ไปวางในช่องแชท
+### Practice 2a: Zero-Shot Prompt (Default)
 
-```
-จากข้อมูลนี้ ช่วยสรุปให้ผู้บริหารในรูปแบบ
-1) What happened (เกิดอะไรขึ้น)
-2) Why (สาเหตุที่เป็นไปได้)
-3) So what (ผลกระทบต่อธุรกิจ/ลูกค้า/ต้นทุน)
-4) Now what (ข้อเสนอแนะ 3 ข้อ + owner)
-ให้ตอบเป็นภาษาไทย กระชับ เป็น bullet points
+1. ก๊อปปี้ prompt ด้านล่างทีละ use case ไปวางในช่องแชท และกดส่ง
+2. สังเกตรูปแบบคำตอบที่ได้จากแต่ละ use case
+3. จดข้อสังเกตสั้นๆ ว่าโทนและผลลัพธ์ต่างกันอย่างไร
 
----
-```
+#### Translation (Business Context - Life Insurance)
 
-2. จากนั้น copy ข้อความด้านล่างที่เป็น Raw note จากหัวหน้างานไปวางไว้ด้านล่าง
-
-```
-• ช่วงวันที่: 1–28 เม.ย. 2026 (ข้อมูลรวม 4 ช่องทาง/ทีม: ช่องทางตัวแทน, ช่องทางธนาคาร, ทีมบริการลูกค้า, ทีมพิจารณาเคลม)
-• ช่องทางตัวแทน: ยอด New Policy ต่ำกว่าเป้า 7% ใน 2 เขตขาย (เขตกลาง, เขตเหนือ) ตัวแทน Active ลดลง 4% เทียบเดือนก่อน
-• ช่องทางธนาคาร: lead เข้าระบบเพิ่ม 12% (1,680 leads) แต่ Conversion Rate ลดลงจาก 18% เหลือ 14%
-• ทีมบริการลูกค้า: complaint เรื่องเอกสารเคลมไม่ครบเพิ่มขึ้น 18% เทียบเดือนก่อน อีเมลค้างคิวเฉลี่ย 2.3 วัน (เป้า < 1 วัน)
-• ทีมพิจารณาเคลม: Median Claim Turnaround Time เพิ่มจาก 4.2 วัน เป็น 5.1 วัน เคลมค้างเกิน 7 วัน: 28 ราย (เดือนก่อน 17 ราย)
-• ข้อเสนอเบื้องต้น: จัดทำ checklist เอกสารก่อนยื่นเคลม, ทำ playbook follow-up lead ภายใน 48 ชั่วโมง, จัด training product knowledge ช่องทางธนาคาร
-```
-3. กดปุ่มส่ง และรอตรวจสอบที่ Copilot สรุปสถานการณ์ให้เรา
-
-### Practice 3: ขอ "เวอร์ชันสำหรับผู้บริหาร" ที่กระชับ
-
-ก๊อปปี้ prompt ข้างล่างนี้ไปวางในช่องแชท ในการคุยต่อเนื่อง และขอให้สรุปแบบย่อสำหรับผู้บริหารที่ต้องการข้อมูลสั้นๆ เพื่อการตัดสินใจทันที
-
-```
-ย่อคำตอบข้างต้นให้เหลือ 5 ข้อสั้นๆ ที่ผู้บริหารอ่านแล้วตัดสินใจได้ทันที
+```text
+Translate the following customer greeting into French for international clients:'Welcome to Tokio Marine Life Insurance (Thailand). How may we assist you with your life insurance, protection, or savings needs today?'
 ```
 
-## Scenario 2: สรุปงานที่เกิดในสัปดาห์ที่แล้ว และเตรียมงานต่อในสัปดาห์นี้
+#### Creative Writing (Brand Tone - Life Insurance Values)
 
-1. เปิด [Copilot Chat](https://m365.cloud.microsoft/chat) หรือ[ที่นี่](https://office.com)
-2. ด้านบนของหน้าจอ chat ให้กดเลือกโหมด **Work** (ด้านซ้าย)
-
-![alt text](<../../images/copilot/Screenshot 2568-08-22 at 00.18.40.png>)
-
-3. ก๊อปปี้ prompt ข้างล่างนี้ไปวางในช่องแชท และกดส่ง พร้อมสังเกตผลลัพธ์ที่ได้
-
-```
-สรุปความคืบหน้าของงานในสัปดาห์ที่แล้ว
+```text
+Write a short, professional poem about trust, protection, and lifelong security, reflecting the values of Tokio Marine Life Insurance and its long-term commitment to supporting customers and their families.
 ```
 
-4. ก๊อปปี้ prompt ข้างล่างนี้ไปวางในช่องแชท และกดส่ง พร้อมสังเกตผลลัพธ์ที่ได้
+#### Summarization (Life Insurance Document)
 
-```
-มีนัดหมาย meeting อะไรบ้างในสัปดาห์นี้ 
-แนะนำขั้นตอนที่จำเป็นต้องทำก่อนเข้าแต่ละ meeting
-และแนะนำไฟล์ที่สามารถใช้เตรียมตัวสำหรับ meeting เหล่านั้น
+```text
+Summarize the main points of the following life insurance policy document, highlighting key coverage, benefits, exclusions, and value for policyholders:[Paste policy text here]
 ```
 
-## Scenario 3: สร้าง Infographic ด้วย Copilot Create
+#### Informational (Customer Education - Life Insurance)
 
-1. กดเลือกเมนู Create
+```text
+What are the key benefits of having life insurance coverage for individuals and families in Thailand, including protection, savings, retirement planning, and long-term financial security?
+```
 
-![ภาพตัวอย่าง](../../images/copilot/2025-08-21_22-17-41.png)
+#### Explanation (Industry Concept - Life Insurance & Risk Management)
 
-2. จากรายการไอเดียด้านบน ให้เลือก **Create an Image**
-3. ในช่อง Prompt Box ให้ copy prompt ด้านล่างไปวาง เพื่อใช้กำหนดเนื้อหาของรูปภาพ
-   ```
-   Place the character from the reference image into an illustrated modern life insurance office or financial advisory setting, with the character confidently presenting a data chart to a group of insurance professionals, in clean pastel colors.
-   ```
+```text
+Explain the concept of risk management in the life insurance industry, and how Tokio Marine Life Insurance helps individuals and families manage life, health, and financial risks through protection and long-term planning solutions.
+```
 
-4. กดปุ่ม **+ Add Content** ด้านล่างซ้าย ของ Prompt box > เลือก **Add an Image** > เลือกไฟล์รูปภาพ **character.png** ที่ได้จากไฟล์ zip ในเวิร์คชอปนี้ 
-    ![alt text](../../images/copilot/2026-03-25_22-45-45.png)
-5. ในช่อง **Add Style** ให้เลือก Style รูปที่ต้องการ
-6. กดปุ่ม **Create** และรอผลลัพธ์
-7. เมื่อได้ผลลัพธ์แล้ว เราสามารถกดที่ภาพเพื่อดูภาพขนาดใหญ่ขึ้น หรือกด Download เพื่อดาวน์โหลดภาพได้
+### Practice 2b: Few-Shot Prompt
+
+1. ก๊อปปี้ prompt ด้านล่างไปวางในช่องแชท และกดส่ง
+2. สังเกตว่าตัวอย่างที่ให้ไว้ใน prompt มีผลต่อรูปแบบคำตอบอย่างไร
+
+```text
+Here are two email subject lines for internal meetings at Tokio Marine Life Insurance:
+- 'Reminder: Policy Administration Review Meeting at 3 PM Today'
+- 'Don't Forget: New Life Insurance Product Kickoff Tomorrow at 10 AM'
+
+Now, write a professional subject line for a budget review meeting scheduled for next Wednesday at 2 PM, ensuring it reflects a corporate life insurance context.
+```
+
+### Practice 2c: Chain-of-Thought (CoT) Prompt
+
+1. ก๊อปปี้ prompt ด้านล่างไปวางในช่องแชท และกดส่ง
+2. สังเกตการอธิบายแบบเป็นลำดับเหตุผลก่อนสรุปคำตอบ
+
+```text
+A company processes customer orders manually. Each order takes 15 minutes to verify, and an employee can process 30 orders per day. If automation reduces verification time by 50%, how many additional orders can an employee process daily? Explain your reasoning step by step.
+```
+
+### Practice 2d: Self-Refine Prompt
+
+1. ก๊อปปี้ prompt ด้านล่างทีละ use case ไปวางในช่องแชท และกดส่ง
+2. สังเกตความต่างระหว่างคำตอบรอบแรกกับคำตอบที่ถูกปรับปรุงโดยโมเดล
+3. จดข้อสังเกตว่าการสั่งให้วิจารณ์และปรับคำตอบช่วยเพิ่มคุณภาพอย่างไร
+
+#### Customer Education Content + Refinement (Life Insurance Context)
+
+```text
+Write a short paragraph about the benefits of having life insurance coverage for individuals and families, including financial protection, savings, and long-term security. Then, review your paragraph and suggest ways to improve its clarity and conciseness for Tokio Marine Life Insurance customers.
+```
+
+#### Marketing + Critique (Life Insurance Product)
+
+```text
+Generate a marketing slogan for a new life insurance product offered by Tokio Marine Life Insurance. Now, critique your slogan and propose three alternative slogans that are more impactful and better aligned with trust, protection, long-term security, and care for families.
+```
+
+#### Policy Summary + Improvement (Life Insurance Policy)
+
+```text
+Write a summary of the following life insurance policy document: [paste policy]. Then, identify any areas where your summary could be more accurate, clearer, or more comprehensive, and revise it accordingly for Tokio Marine Life Insurance stakeholders and policyholders.
+```
+
+#### Client Communication + Professional Rewrite (Life Insurance Customer)
+
+```text
+Compose an email to a client explaining an update to their life insurance policy, coverage, or claim status at Tokio Marine Life Insurance. Review your email for tone, clarity, and empathy, and rewrite it to be more professional, reassuring, and customer-friendly.
+```
+
+
+## Checkpoint
+
+- รัน prompt ครบตามเทคนิค Zero-Shot, Few-Shot, Chain-of-Thought, และ Self-Refine
+- ใช้ prompt ต้นฉบับจากสไลด์อ้างอิงแบบ exact text โดยไม่แก้ข้อความ
+- มีบันทึกข้อสังเกตความแตกต่างของคำตอบจากแต่ละเทคนิคอย่างน้อย 1 จุดต่อเทคนิค
+
+## Expected Output
+
+- ผลลัพธ์จากการทดลอง prompt อย่างน้อย 1 คำตอบต่อเทคนิค
+- บันทึกเปรียบเทียบคุณภาพคำตอบระหว่างเทคนิคทั้ง 4 แบบ
+- ตัวอย่างคำตอบที่ผ่านการปรับปรุงจาก Self-Refine อย่างน้อย 1 ชิ้น
