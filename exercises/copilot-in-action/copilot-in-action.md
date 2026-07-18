@@ -19,9 +19,9 @@
 
 | Use case | เหมาะกับบทบาท | Final output | Sample download | เวลาโดยประมาณ | Exercise |
 |---|---|---|---|---|---|
-| Modern Trade Promotion Performance Review | Commercial, Sales, Trade Marketing, Finance | PowerPoint-ready outline | [modern_trade_promotion_review.xlsx](https://github.com/teerasej/ai-for-everyone/raw/unilever-1-premium-basic-agenda-exercises/files/copilot-in-action/modern_trade_promotion_review.xlsx) | 25-30 นาที | [เริ่ม walkthrough](modern-trade-promotion-review.md) |
-| New Product Launch Readiness Brief | Marketing, Sales, Supply Chain, Finance, HR | Excel-ready action tracker | [new_product_launch_readiness.zip](https://github.com/teerasej/ai-for-everyone/raw/unilever-1-premium-basic-agenda-exercises/files/copilot-in-action/new_product_launch_readiness.zip) | 25-30 นาที | [เริ่ม walkthrough](new-product-launch-readiness.md) |
-| Customer Feedback And Issue Response Summary | Brand, Customer Care, Sales, Quality, Corporate Affairs | Word-ready summary | [customer_feedback_issue_response.zip](https://github.com/teerasej/ai-for-everyone/raw/unilever-1-premium-basic-agenda-exercises/files/copilot-in-action/customer_feedback_issue_response.zip) | 25-30 นาที | [เริ่ม walkthrough](customer-feedback-issue-response.md) |
+| Modern Trade Promotion Performance Review | Commercial, Sales, Trade Marketing, Finance | PowerPoint-ready outline | [modern_trade_promotion_review.xlsx](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/copilot-in-action/modern_trade_promotion_review.xlsx) | 25-30 นาที | [เริ่ม walkthrough](modern-trade-promotion-review.md) |
+| New Product Launch Readiness Brief | Marketing, Sales, Supply Chain, Finance, HR | Excel-ready action tracker | [new_product_launch_readiness.zip](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/copilot-in-action/new_product_launch_readiness.zip) | 25-30 นาที | [เริ่ม walkthrough](new-product-launch-readiness.md) |
+| Customer Feedback And Issue Response Summary | Brand, Customer Care, Sales, Quality, Corporate Affairs | Word-ready summary | [customer_feedback_issue_response.zip](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/copilot-in-action/customer_feedback_issue_response.zip) | 25-30 นาที | [เริ่ม walkthrough](customer-feedback-issue-response.md) |
 
 ## Checkpoint
 

@@ -7,7 +7,7 @@
 ## Prerequisites
 
 1. ลงชื่อเข้าใช้ [Microsoft 365 Copilot](https://m365copilot.com/) ด้วยบัญชีองค์กร
-2. ดาวน์โหลด [new_product_launch_readiness.zip](https://github.com/teerasej/ai-for-everyone/raw/unilever-1-premium-basic-agenda-exercises/files/copilot-in-action/new_product_launch_readiness.zip)
+2. ดาวน์โหลด [new_product_launch_readiness.zip](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/copilot-in-action/new_product_launch_readiness.zip)
 3. แตกไฟล์ zip เพื่อใช้ `launch_readiness_tracker.xlsx` และ `product_launch_brief.docx`
 4. หากหน้าจอมีปุ่ม **Work IQ** ให้ปิดปุ่มนี้ เพื่อใช้ Web-grounded chat และไฟล์ที่เราแนบเอง
 

@@ -7,7 +7,7 @@
 ## Prerequisites
 
 1. ลงชื่อเข้าใช้ [Microsoft 365 Copilot](https://m365copilot.com/) ด้วยบัญชีองค์กร
-2. ดาวน์โหลด [modern_trade_promotion_review.xlsx](https://github.com/teerasej/ai-for-everyone/raw/unilever-1-premium-basic-agenda-exercises/files/copilot-in-action/modern_trade_promotion_review.xlsx)
+2. ดาวน์โหลด [modern_trade_promotion_review.xlsx](https://github.com/teerasej/ai-for-everyone/raw/unilever-1/files/copilot-in-action/modern_trade_promotion_review.xlsx)
 3. หากหน้าจอมีปุ่ม **Work IQ** ให้ปิดปุ่มนี้ เพื่อใช้ Web-grounded chat และไฟล์ที่เราแนบเอง
 
 > Workbook นี้เป็นข้อมูลสมมติ มีข้อมูล Product, Category, Channel, Region, Month, Baseline Sales, Promotion Sales, Uplift %, Stock Issue Flag, Margin Impact และ Notes เท่านั้น อย่าเติมปี สกุลเงิน retailer จริง campaign จริง หรือสาเหตุที่ไม่มีในไฟล์
