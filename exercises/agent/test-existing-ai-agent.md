@@ -38,38 +38,34 @@ Help me create an employee satisfaction survey about workplace benefits and work
 Keep it to 8 questions and include a mix of rating, multiple-choice, and open-text questions.
 ```
 
-3. ตรวจคำถามใน Preview แบบ side-by-side
-4. ขอให้ Agent เพิ่มหัวข้อที่ยังขาด
+3. คลิกตรวจคำถามใน Preview แบบ side-by-side
+4. ทดสอบ prompt คำสั่งเพื่อส่ง Surveys ให้ผู้รับโดยใช้ email address ของเราเอง (เพื่อให้สะดวกต่อการตรวจสอบ) เช่น
 
 ```text
-Add 2 questions about manager support and career growth opportunities.
-Keep the total survey length suitable for completion within 5 minutes.
+send this survey to [email] for collecting responses and following up.
 ```
 
-5. ตรวจว่าคำถามไม่ซ้ำ ไม่ชี้นำคำตอบ และไม่มีข้อมูลส่วนบุคคลที่ไม่จำเป็น
+5. รอจนกว่า Agent จะยืนยันการส่งแบบสำรวจ
 
 ### Practice 3: ตรวจแผนการส่งแบบสำรวจ
 
 #### Steps
 
-1. ไปยังขั้นตอนการส่งแบบสำรวจ
-2. ตรวจช่องทาง กลยุทธ์การเก็บคำตอบ และ timeline ที่ Agent แนะนำ
-3. หยุดก่อนการส่งจริง และอธิบายว่าเราจะเลือกกลุ่มผู้ตอบอย่างไร
+1. เปิดไปยัง inbox ของ email address ที่ใช้ส่งแบบสำรวจ 
+2. เช็ค email ที่ได้รับจาก Surveys Agent 
+3. คลิกเพื่อเปิด Survey ที่ agent ส่งมา
 
 ## Checkpoint
 
 - Surveys Agent ถูกเพิ่มจากหมวด **Built by Microsoft**
-- Preview มีคำถามครอบคลุม benefits, work environment, manager support และ career growth
+- Preview มีคำถามครอบคลุม
 - แผนการส่งระบุช่องทางและช่วงเวลาติดตามผล
-- ไม่มีการส่งแบบสำรวจจริงระหว่าง workshop
 
 ## Expected Output
 
 - แบบสำรวจฉบับ Preview 1 ชุด และแผนการส่ง 1 ชุด
 
-## Optional Extension
 
-- หลังมีคำตอบเพียงพอ Surveys Agent สามารถติดตามสถานะ ส่ง reminder ผ่าน Outlook สร้าง insight และ export ผลลัพธ์เป็น Excel ได้
 
 > อ้างอิง: [Get started with Surveys Agent in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-surveys-agent-in-microsoft-365-copilot-ddad28f2-386b-4f81-8a07-8ac4ee8f6bd8)
 

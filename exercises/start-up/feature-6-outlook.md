@@ -12,7 +12,7 @@
 
 ## Scenario 1: ติดตามงานและร่างข้อความตอบกลับ
 
-### Practice 1: สรุป Email thread (ประมาณ 5 นาที)
+### Practice 1: สรุป Email thread 
 
 #### Steps
 
@@ -22,7 +22,7 @@
 
 ![ผลการสรุป Email thread](../../images/copilot/2025-09-29_17-44-14.png)
 
-### Practice 2: ร่าง Email นัดหมาย (ประมาณ 9 นาที)
+### Practice 2: ร่าง Email นัดหมาย 
 
 #### Steps
 

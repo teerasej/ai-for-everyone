@@ -15,9 +15,9 @@
 ### 3. AI ใน Microsoft 365 Apps 
 
 1. [สร้างเอกสารด้วย Copilot in Word](exercises/start-up/word-feature-1.md)
-2. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
-3. [วิเคราะห์ข้อมูลด้วย Copilot in Excel](exercises/start-up/feature-4-excel.md)
-4. [สรุปและร่าง Email ด้วย Copilot in Outlook](exercises/start-up/feature-6-outlook.md)
+2. [วิเคราะห์ข้อมูลด้วย Copilot in Excel](exercises/start-up/feature-4-excel.md)
+3. [สรุปและร่าง Email ด้วย Copilot in Outlook](exercises/start-up/feature-6-outlook.md)
+4. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
 
 ### พัก (15 นาที)
 
