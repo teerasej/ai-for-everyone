@@ -1,69 +1,75 @@
+# Exercise: ทดลองใช้ Surveys Agent จาก Agent Store
 
-# ทดสอบเรียกใช้ Surveys Agent (ตัวช่วยสร้างแบบสำรวจผ่าน Microsoft Forms)
+## Exercise Overview
 
-**เป้าหมาย:** ให้ผู้เรียนได้ทดลองใช้งาน **Surveys Agent** ซึ่งเป็น Agent สำเร็จรูปจาก Microsoft ที่ทำงานร่วมกับ **Microsoft Forms** โดยตรง สามารถช่วยออกแบบแบบสำรวจ, ส่งแบบสำรวจไปยังผู้ตอบ, ติดตามสถานะการตอบกลับ และสรุปผลวิเคราะห์ข้อมูลได้อัตโนมัติ
+Agenda เรียกกิจกรรมนี้ว่า Form Agent ส่วนชื่อปัจจุบันใน Microsoft 365 Copilot คือ **Surveys Agent** เราจะเพิ่ม Agent จาก Agent Store สร้างแบบสำรวจ ตรวจคำถาม และดูแผนการส่งภายใน 15 นาที
 
-> การเข้าใช้งาน Agent อาจขึ้นอยู่กับการตั้งค่าขององค์กรที่กำหนดไว้ หากไม่สามารถเข้าถึงการใช้งานได้ สามารถดูตามไปก่อนได้ และโปรดติดต่อผู้ดูแลระบบภายหลัง
+## Prerequisites
 
+1. มี Microsoft 365 Copilot license
+2. องค์กรอนุญาตให้ติดตั้ง Surveys Agent
+3. ลงชื่อเข้าใช้ [Microsoft 365 Copilot](https://m365copilot.com/) ด้วยบัญชีองค์กร
 
-## ขั้นตอน
+> หากองค์กรปิดการติดตั้ง Agent ให้ดูการสาธิตจากผู้สอนและข้ามการกดส่งแบบสำรวจ
 
-### 1. เปิด Microsoft 365 Copilot และค้นหา Surveys Agent
+## Scenario 1: สร้างแบบสำรวจความพึงพอใจของพนักงาน
 
-1. เปิด Microsoft 365 Copilot [https://m365copilot.com](https://m365copilot.com) หรือ [https://copilot.microsoft.com/](https://copilot.microsoft.com/) แล้วลงชื่อเข้าใช้ด้วยบัญชี Microsoft 365 ของเราที่ได้รับจากองค์กร
-   ![alt text](2026-02-11_10-34-56.png)
-2. ไปที่ **Agent Store** โดยเลือก **All agents** จากเมนูด้านซ้าย
-3. ค้นหา **Surveys** ในหมวด **"Built by Microsoft"** หรือจะติดตั้งโดยตรงจากลิงก์นี้ได้เลย: [https://aka.ms/GetSurveysAgent](https://aka.ms/GetSurveysAgent)
-   
-4. กดเพิ่ม Surveys Agent ลงในบัญชีของเรา โดยคลิกที่ปุ่ม **Add agent**
-    ![alt text](2026-02-11_10-37-45.png)
-    > NOTE: ในขั้นตอนนี้ถ้ากดไม่ได้ และขึ้นข้อความประมาณว่า **Your organization has prevented this agent from being installed.** นั่นคือ Admin ไม่ได้เปิดให้ใช้ Agent ตัวนี้นะครับ ดูตามได้ก่อนเลย
+### Practice 1: เพิ่ม Surveys Agent จาก Agent Store
 
-5. เมื่อเพิ่มเรียบร้อยแล้ว Surveys Agent จะปรากฏในหัวข้อ **Agents** ที่เมนูด้านซ้าย
-   ![alt text](2026-02-11_10-38-55.png)
+#### Steps
 
-### 2. สร้างแบบสำรวจด้วย Prompt
+1. เลือก **All agents** จากเมนูด้านซ้าย
+2. ค้นหา **Surveys Agent** ในหมวด **Built by Microsoft** หรือเปิด [ลิงก์ติดตั้ง Surveys Agent](https://aka.ms/GetSurveysAgent)
+3. เลือก **Add agent**
 
-6. คลิกเลือก **Surveys** จากเมนู Agents ด้านซ้าย เพื่อเปิดห้องแชท
-7. พิมพ์ prompt เพื่อบอก Agent ว่าต้องการสร้างแบบสำรวจแบบไหน ลองคัดลอกข้อความด้านล่างไปใช้ได้เลย
+![เพิ่ม Surveys Agent](2026-02-11_10-37-45.png)
 
-    ```
-    Help me create an employee satisfaction survey about workplace benefits and work environment
-    ```
+4. ตรวจสอบว่า **Surveys** ปรากฏใต้หัวข้อ **Agents**
 
-8. Surveys Agent จะสร้างตัวอย่างแบบสำรวจ (Preview) ขึ้นมา พร้อมแสดงคำถามที่ออกแบบให้ ซึ่งเบื้องหลัง Agent จะสร้างแบบสำรวจนี้บน **Microsoft Forms** ให้อัตโนมัติ
+### Practice 2: สร้างและตรวจแบบสำรวจ
 
-### 3. ตรวจสอบและแก้ไขแบบสำรวจ (Optional)
+#### Steps
 
-9. ในหน้า Preview เราสามารถดูคำถามทั้งหมดที่ Agent สร้างให้ได้ในมุมมองแบบ **side-by-side**
-10. ถ้าต้องการปรับแก้ ลองพิมพ์ prompt เพิ่มเติม เช่น
+1. เลือก **Surveys** จากเมนู **Agents**
+2. วาง prompt ด้านล่าง แล้วกด **Send**
 
-    ```
-    Add 2 more questions about manager support and career growth opportunities
-    ```
+```text
+Help me create an employee satisfaction survey about workplace benefits and work environment.
+Keep it to 8 questions and include a mix of rating, multiple-choice, and open-text questions.
+```
 
-11. หรือจะเข้าไปแก้ไขโดยตรงใน Microsoft Forms ก็ได้เช่นกัน
+3. ตรวจคำถามใน Preview แบบ side-by-side
+4. ขอให้ Agent เพิ่มหัวข้อที่ยังขาด
 
-### 4. ส่งแบบสำรวจ (Distribute)
+```text
+Add 2 questions about manager support and career growth opportunities.
+Keep the total survey length suitable for completion within 5 minutes.
+```
 
-12. เมื่อพอใจกับแบบสำรวจแล้ว Agent อาจจะแนะนำ **แผนการกระจายแบบสำรวจ** ที่เหมาะสม ได้แก่
-    - ช่องทางการส่ง (เช่น Email, Microsoft Teams)
-    - กลยุทธ์การเก็บข้อมูล
-    - ไทม์ไลน์ในการติดตาม
-13. เลือกช่องทางที่ต้องการ แล้วให้ Agent ส่งแบบสำรวจออกไป เช่นทดสอบโดยใช้คำสั่งนี้
-   ```
-   Send the survey to [email address] 
-   ```
+5. ตรวจว่าคำถามไม่ซ้ำ ไม่ชี้นำคำตอบ และไม่มีข้อมูลส่วนบุคคลที่ไม่จำเป็น
 
-### (เสริม) ติดตามผลและดู Insights
+### Practice 3: ตรวจแผนการส่งแบบสำรวจ
 
-14. Surveys Agent จะ **ติดตามสถานะการตอบกลับ** อัตโนมัติ และส่ง reminder ผ่าน Outlook ให้ผู้ที่ยังไม่ตอบ
-15. เมื่อได้รับการตอบกลับเพียงพอ Agent จะสรุปผลเป็น **insights** พร้อม **ข้อเสนอแนะเชิงปฏิบัติ (actionable insights)**
-16. สามารถ **export ผลลัพธ์เป็น Excel** ได้ ซึ่งจะรวมทั้งข้อมูลดิบ (raw data) และผลสรุป (summarized findings) เพื่อแชร์ให้ทีมร่วมวิเคราะห์ต่อได้
+#### Steps
 
-> **เคล็ดลับ:** Surveys Agent ไม่ใช่แค่ตัวช่วยสร้างคำถาม แต่เป็นตัวจัดการ workflow ของแบบสำรวจทั้งหมดตั้งแต่สร้าง ส่ง ติดตาม จนถึงวิเคราะห์ผล ช่วยประหยัดเวลาได้มากเลย
+1. ไปยังขั้นตอนการส่งแบบสำรวจ
+2. ตรวจช่องทาง กลยุทธ์การเก็บคำตอบ และ timeline ที่ Agent แนะนำ
+3. หยุดก่อนการส่งจริง และอธิบายว่าเราจะเลือกกลุ่มผู้ตอบอย่างไร
 
-> **เคล็ดลับ:** ถ้าเราเพิ่ม Agent เข้ามาในบัญชีแล้ว เรายังสามารถคุยกับ Agent ผ่าน Microsoft Teams ในส่วนของ Copilot ได้ด้วยนะ
+## Checkpoint
 
-> **อ้างอิง:** [Get started with Surveys Agent in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-surveys-agent-in-microsoft-365-copilot-ddad28f2-386b-4f81-8a07-8ac4ee8f6bd8)
+- Surveys Agent ถูกเพิ่มจากหมวด **Built by Microsoft**
+- Preview มีคำถามครอบคลุม benefits, work environment, manager support และ career growth
+- แผนการส่งระบุช่องทางและช่วงเวลาติดตามผล
+- ไม่มีการส่งแบบสำรวจจริงระหว่าง workshop
+
+## Expected Output
+
+- แบบสำรวจฉบับ Preview 1 ชุด และแผนการส่ง 1 ชุด
+
+## Optional Extension
+
+- หลังมีคำตอบเพียงพอ Surveys Agent สามารถติดตามสถานะ ส่ง reminder ผ่าน Outlook สร้าง insight และ export ผลลัพธ์เป็น Excel ได้
+
+> อ้างอิง: [Get started with Surveys Agent in Microsoft 365 Copilot](https://support.microsoft.com/en-us/topic/get-started-with-surveys-agent-in-microsoft-365-copilot-ddad28f2-386b-4f81-8a07-8ac4ee8f6bd8)
 

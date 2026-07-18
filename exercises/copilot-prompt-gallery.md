@@ -1,48 +1,69 @@
+# Exercise: ค้นหา ปรับ บันทึก และแชร์ Prompt ด้วย Prompt Gallery
 
-# ใช้งาน Prompt Gallery
+## Exercise Overview
 
-## Feature 1: ใช้งาน prompt สำเร็จรูปที่มีอยู่แล้ว
+เราจะเริ่มจาก prompt สำเร็จรูป ปรับให้ตรงกับงาน HR บันทึกไว้ใช้ซ้ำ และแชร์กับ Microsoft Teams team ภายใน 20 นาที
 
-1. เข้าใช้งาน Microsoft Copilot Chat ด้วย account ขององค์กร https://m365copilot.com
-2. ให้กดปุ่ม New chat ด้านบนขวา ถ้ามี chat เดิมค้างอยู่
-   ![alt text](../images/copilot/2025-08-24_20-22-49.png)
-3. จากเมนูด้านข้าง ให้เลือกเมนู **Chat** และกดขยาย prompt template ด้านล่างกล่องข้อความแชท เพื่อกดเปิด **Prompt Gallery** 
-    ![alt text](../images/copilot/2025-08-24_20-05-19.png)
+## Prerequisites
 
-4. จากหน้าต่าง Prompt Gallery > เลือก Microsoft Prompt > เลือก Task "Create" > เลือก Department "Human Resources" > เลือก template "Define job requirements"
-    ![alt text](../images/copilot/2025-08-24_20-13-30.png)
+1. ลงชื่อเข้าใช้ [Microsoft 365 Copilot](https://m365copilot.com/) ด้วยบัญชีองค์กร
+2. เป็นสมาชิก Microsoft Teams team อย่างน้อย 1 team หากต้องการทดลองแชร์
 
-5. จะเห็นว่า prompt ถูกใส่ลงไปในกล่องข้อความแชท ให้แก้ไขประเภทงานเป็นตามข้อความด้านล่าง
+## Scenario 1: สร้าง Prompt สำหรับร่าง Job Description
 
-    ```
-    Create a list of the essential skills required for a translator for thai and japanese
-    ```
+## Practice 1: ใช้และปรับ prompt สำเร็จรูป
 
-6. ตรวจสอบผลการทำงาน
-7. ใช้ prompt ด้านล่างในการจัดให้เป็น job description
-    ```
-    format for a job description
-    ```
+#### Steps
 
-8. ตรวจสอบผลลัพธ์ที่ได้จากการใช้ prompt 
+1. เปิด **Prompt Gallery** จาก Microsoft 365 Copilot
+2. เลือกแท็บ **Suggested**
+3. กรอง Task เป็น `Create` และเลือก prompt ที่เกี่ยวกับการกำหนดคุณสมบัติของตำแหน่งงาน
 
+![เลือก prompt ใน Prompt Gallery](../images/copilot/2025-08-24_20-13-30.png)
 
-## Feature 2: บันทึก Prompt ไว้ใช้งาน
+4. ปรับ prompt ให้เป็นข้อความด้านล่าง แล้วทดลองใช้งาน
 
-หลังจากที่ได้ทำการสร้าง Prompt ขึ้นมาแล้ว สามารถบันทึก Prompt นั้นไว้ใช้งานในอนาคตได้
+```text
+Create a job description for a Thai-Japanese translator.
+Include: role summary, 6 essential skills, 4 responsibilities, required language proficiency, and 3 interview questions.
+Use inclusive and professional language.
+Mark any company-specific policy or benefit as [ต้องระบุ] instead of inventing it.
+```
 
-1. กดปุ่ม **New Chat** ด้านบนขวา เพื่อขึ้นห้องแชทใหม่
-   ![alt text](../images/copilot/2025-08-24_20-22-49.png)
-2. เราจะรวมข้อความ prompt จากแชทก่อนหน้านี้ มาเป็น prompt เดียว เพื่อให้การสั่งงานสามารถได้ผลลัพธ์ในครั้งเดียว ให้ทดสอบ copy ข้อความ prompt ด้านล่างในห้องแชทใหม่ และสังเกตผลลัพธ์
+5. ตรวจผลลัพธ์และปรับ role, audience หรือ format ให้เหมาะกับงานของเรา
 
-   ```
-   Create a list of the essential skills required for a translator for thai and japanese. format for a job description
-   ```
-3. นำ cursor mouse ไปวางไว้ที่ข้อความ prompt แรกและกดปุ่ม save prompt
-   ![alt text](../images/copilot/2025-08-24_20-26-10.png)
-4. ตั้งชื่อ prompt ว่า `Create job description` และกดปุ่ม Save
-   ![alt text](../images/copilot/2025-08-24_20-27-04.png)
+## Practice 2: บันทึก Prompt ไว้ใช้ซ้ำ
 
-5. เปิด Prompt Gallery ขึ้นมาอีกครั้ง แต่คราวนี้ให้เลือก Your Prompt > จะเห็นว่ามี prompt ที่บันทึกไว้แสดงในรายการ เราสามารถกดเลือกใช้ prompt หรือกดแชร์ให้คนอื่นใช้งานได้
-   ![alt text](../images/copilot/2025-08-24_20-27-43.png)
-   
+#### Steps
+
+1. วางเมาส์เหนือ prompt ที่เราส่ง แล้วเลือก **Save prompt**
+
+![ปุ่ม Save prompt](../images/copilot/2025-08-24_20-26-10.png)
+
+2. ตั้งชื่อว่า `Create translator job description` แล้วเลือก **Save**
+3. เปิด Prompt Gallery และเลือกแท็บ **Your prompts**
+4. เปิด prompt ที่บันทึกไว้ และตรวจว่าข้อความครบถ้วน
+
+![Prompt ที่บันทึกไว้ใน Your prompts](../images/copilot/2025-08-24_20-27-43.png)
+
+## Practice 3: แชร์ Prompt กับ team
+
+#### Steps
+
+1. ในแท็บ **Your prompts** วางเมาส์เหนือ prompt ที่ต้องการแชร์
+2. เลือก **Share prompt** แล้วเลือก **Share to team**
+3. เลือก Microsoft Teams team ที่ใช้สำหรับ workshop
+4. เปิดแท็บ **Team prompts** และเลือก team เดิม เพื่อตรวจว่า prompt ปรากฏในรายการ
+
+> หากไม่มี team สำหรับทดลอง ให้หยุดก่อนขั้นตอนแชร์และเก็บ prompt ไว้ใน **Your prompts**
+
+## Checkpoint
+
+- prompt ระบุ role, context, output format และข้อจำกัดครบ
+- prompt ที่บันทึกปรากฏใน **Your prompts**
+- prompt ที่แชร์ปรากฏใน **Team prompts** ของ team ที่เลือก หรือถูกเก็บเป็น prompt ส่วนตัวเมื่อไม่มี team
+
+## Expected Output
+
+- prompt สำหรับสร้าง Job Description 1 รายการที่บันทึกและพร้อมใช้ซ้ำ
+- prompt ที่แชร์กับ team 1 รายการ หรือ prompt ส่วนตัว 1 รายการตามสิทธิ์ที่มี

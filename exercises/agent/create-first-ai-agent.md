@@ -1,50 +1,98 @@
+# Exercise: สร้าง Sales Proposal Assistant ด้วย Agent Builder
 
-# สร้าง Agent AI ตัวแรกของคุณ
+## Exercise Overview
 
-ข้อความโต้ตอบในแบบฝึกหัดนี้ของ Copilot อาจจะแตกต่างกันไป ซึ่งอาจจะเหมือน หรือไม่เหมือนกับตัวอย่างก็ได้ ให้พวกเราลองสังเกตดีๆ นะครับ
+เราจะสร้าง Agent สำหรับช่วยร่าง Sales Proposal จากข้อมูลอ้างอิง ทดสอบคุณภาพคำตอบ และแชร์ให้เพื่อนร่วมทีมภายใน 50 นาที
 
+## Prerequisites
 
-## ขั้นตอนการกำหนดหน้าที่ของ Agent แบบแชทคุยกัน (Describe)
+1. มี Microsoft 365 Copilot license หรือ tenant ที่เปิด pay-as-you-go สำหรับ Agent Builder
+2. อัพโหลด `Business Idea.docx` และ `Business presentation.pptx` ไปยัง OneDrive แล้ว
+3. ใช้ข้อมูลตัวอย่างระหว่าง workshop และไม่นำข้อมูลลูกค้าที่เป็นความลับมาใส่ใน Agent
 
-1. เปิด Copilot Chat [https://m365copilot.com/](https://m365copilot.com/)
-2. ในเมนูด้านข้าง ให้เลือก **Chat** > **Agents** > **Create Agent** หน้าต่างจะแยกเป็นด้านซ้ายสำหรับตั้งค่าการทำงานของ Agent ส่วนด้านขวาจะเป็นตัวอย่างพรีวิว Agent เพื่อให้ทดสอบพูดคุย
-    ![alt text](<../../images/agent/2025-08-24_13-38-18 copy.png>)
-3. ให้แน่ใจว่าส่วนการตั้งค่าเป็นโหมด Describe
-4. ขั้นตอนแรก Copilot จะถามให้เราอธิบายว่า Agent จะทำอะไรได้บ้าง ให้คัดลอกข้อความด้านล่างไปตอบให้แชท และกด enter
-    
-    ```
-    Help Unilever staff know and learn about the Unilever's organization news and details
-    ```
+## Scenario 1: สร้าง Agent ช่วยเตรียมข้อเสนอการขาย
 
-5. Copilot จะคิดชื่อ และรายละเอียดของ Agent มาให้เรา ให้กดดูในส่วนของ Configure จากด้านบน ซึ่งเราสามารถแก้ไขชื่อ และรายละเอียดได้ตามต้องการ
-   ![alt text](2026-02-09_15-10-23.png)
+### Practice 1: อธิบายหน้าที่ของ Agent ด้วย Describe
 
+#### Steps
 
-6. เลื่อนลงมาด้านล่าง เพื่อเพิ่มข้อมูล Knowledge ให้ Copilot ซึ่งในที่นี้ 
-    1. เราสามารถแจ้ง URL ของ website ที่ต้องการให้ Agent ใช้เป็นแหล่งข้อมูลได้
+1. เปิด [Microsoft 365 Copilot](https://m365copilot.com/)
+2. เลือก **New agent** จากเมนูด้านซ้าย
+3. ตรวจสอบว่าอยู่ที่แท็บ **Describe**
 
-    ```
-    https://www.unilever.co.th/news/
-    ```
-    2. เลือกเปิด **Only use specified sources** เพื่อให้แน่ใจว่า Agent จะใช้แหล่งข้อมูลที่เรากำหนดเท่านั้น
-    ![alt text](2026-02-09_15-12-06.png)
-    
-    > ถ้า URL ยาวไป สังเกตว่า Copilot จะแจ้งกลับมาว่า สำหรับ URL จะได้แค่ลึก 2 level นะ (เช่น `www.web.com/1/2`)และจะตัดให้เองอัตโนมััติ ดังนั้นจุดนี้ต้องดูว่าแหล่งข้อมูลบนเว็บของเราพร้อมมั้ย ถ้าจะเอามาใช้
+![หน้าจอ Agent Builder](<../../images/agent/2025-08-24_13-38-18 copy.png>)
 
-7. เมื่อให้ข้อมูลพอสมควรแล้ว เราสามารถทดสอบคุยกับ agent ได้เลย **จากห้องแชททางขวาได้เลย**
-    ```
-    ข่าวล่าสุดของ Unilever มีอะไรบ้าง
-    ```
+4. วาง prompt ด้านล่าง แล้วกด **Send**
 
-8.  เมื่อพอใจแล้ว เราสามารถกดปุ่ม Create ด้านบนขวาของหน้าจอ Create Agent ได้
-   ![alt text](../../images/agent/2025-08-24_13-42-19.png)
+```text
+Create a Sales Proposal Assistant for a sales team.
+The agent should help draft customer-ready proposals from approved knowledge sources.
+It should ask for the customer profile, business need, proposal objective, and expected timeline before drafting.
+The output should include an executive summary, customer needs, proposed solution, expected benefits, implementation plan, risks, assumptions, and next steps.
+Clearly separate facts from assumptions and never invent prices, commitments, or customer information.
+```
 
-9.  เมื่อ Agent ถูกสร้างเสร็จแล้ว เราสามารถเริ่มใช้งาน Agent ได้ทันที หรือจะกดเปลี่ยนรูปแบบการแชร์ ให้คนอื่นใช้งานด้วยก็ได้ 
+5. สนทนากับ Agent Builder ต่อจน Name, Description และ Instructions ถูกสร้างครบ
 
-    ![alt text](../../images/agent/2025-08-24_13-42-42.png)
-    - จากนั้นให้เลือก **Anyone** หรือ **Specific User in your organization** และกด **Save**
-    - เรียบร้อยแล้วก็สามารถ copy link เพื่อส่งให้เพื่อนในทีมเข้ามาใช้ในองค์กรได้เลย
-    > เคล็ดลับ: โดยปกติ Agent ที่ถูกสร้างขึ้นจะสามารถใช้ได้เฉพาะตัวผู้สร้าง และเต็มที่คือภายในองค์กรของผู้สร้าง agent เท่านั้น
+### Practice 2: ตรวจ Configure และเพิ่ม Knowledge
 
-> เคล็ดลับ: ถ้าเราเพิ่ม agent เข้ามาในบัญชีแล้ว เรายังสามารถคุยกับ agent ผ่าน Microsoft Team ในส่วนของ Copilot ได้ด้วยนะ
-> ![alt text](../../images/agent/2025-08-24_14-17-41.png)
+#### Steps
+
+1. เปิดแท็บ **Configure**
+2. ตั้งชื่อ Agent ว่า `Sales Proposal Assistant`
+3. ตรวจ Description และ Instructions ว่าตรงกับหน้าที่ที่กำหนด
+4. ในส่วน **Knowledge** เพิ่ม `Business Idea.docx` และ `Business presentation.pptx` จาก OneDrive
+5. เพิ่ม Starter Prompts อย่างน้อย 2 รายการ เช่น `Draft a proposal outline` และ `Review proposal risks`
+6. ตรวจว่า Instructions ระบุให้ Agent ใช้ข้อมูลจาก Knowledge และแจ้งเมื่อข้อมูลไม่เพียงพอ
+
+### Practice 3: ทดสอบ Agent ใน Try it
+
+#### Steps
+
+1. เปิดแท็บ **Try it**
+2. ทดสอบด้วย prompt ด้านล่าง
+
+```text
+Draft a sales proposal outline for a property management company that is considering an office cleaning service.
+The customer values service reliability, transparent operations, and a clear implementation timeline.
+Use the added knowledge sources. Mark any missing information as "ต้องยืนยัน" and do not invent prices.
+```
+
+3. ตรวจว่า Agent ใช้โครงสร้าง Proposal ครบและแยกข้อมูลที่ต้องยืนยัน
+4. ถ้าพบข้อมูลที่แต่งขึ้น ให้กลับไปแก้ Instructions แล้วทดสอบใหม่
+5. ทดสอบกรณีข้อมูลไม่ครบด้วย prompt ต่อไปนี้
+
+```text
+Create a final price proposal for this customer now.
+```
+
+6. ตรวจว่า Agent ขอข้อมูลเพิ่มเติมหรือระบุว่าไม่สามารถยืนยันราคาได้
+
+### Practice 4: Create และ Share Agent
+
+#### Steps
+
+1. เลือก **Create** เมื่อผลทดสอบผ่าน Checkpoint
+
+![สร้าง Agent](../../images/agent/2025-08-24_13-42-19.png)
+
+2. หลังสร้างเสร็จ เลือก **Share**
+3. เลือก **Specific users in your organization** สำหรับการทดลองใน workshop
+4. ระบุเพื่อนร่วมทีมที่ได้รับอนุญาต แล้วบันทึกการตั้งค่า
+5. คัดลอก link และส่งให้ผู้รับผ่านช่องทางที่องค์กรอนุญาต
+
+> ตัวเลือกการแชร์อาจถูกจำกัดด้วย policy ขององค์กร หากไม่มี **Share** ให้เก็บ Agent เป็น private และแจ้งผู้ดูแลระบบ
+
+## Checkpoint
+
+- Agent มี Name, Description, Instructions, Knowledge และ Starter Prompts ครบ
+- คำตอบใช้โครงสร้าง Sales Proposal ตามที่กำหนด
+- Agent ไม่สร้างราคา ข้อตกลง หรือข้อมูลลูกค้าที่ไม่มีใน Knowledge
+- ทดสอบอย่างน้อย 2 กรณี ก่อนเลือก **Create**
+- การแชร์จำกัดเฉพาะผู้รับที่ได้รับอนุญาต
+
+## Expected Output
+
+- Sales Proposal Assistant 1 Agent ที่ผ่านการทดสอบ
+- Proposal outline 1 ชุด และผลทดสอบกรณีข้อมูลไม่ครบ 1 ชุด
+- link สำหรับผู้รับที่ได้รับอนุญาต หรือ Agent แบบ private หาก policy ไม่อนุญาตให้แชร์

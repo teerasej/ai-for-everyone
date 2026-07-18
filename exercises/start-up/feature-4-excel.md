@@ -1,93 +1,60 @@
+# Exercise: วิเคราะห์ข้อมูลด้วย Copilot in Excel
 
+## Exercise Overview
 
-# Feature 3: ทำงานกับ Excel 
+เราจะใช้ Copilot in Excel สำรวจยอดขาย หา insight สร้างสูตร และสร้างกราฟจาก `sample_product_revenue.xlsx`
 
-> ในแบบฝึกหัดนี้ การใช้งานจะแตกต่างกันตามประเภทของ Account ที่ใช้งาน Copilot นะครับ
+## Prerequisites
 
+1. มี Microsoft 365 Copilot license
+2. อัพโหลด `sample_product_revenue.xlsx` ไปยัง OneDrive แล้ว
+3. หากใช้บัญชีร่วมกัน ให้สร้างสำเนาไฟล์ด้วย **Copy to** และเปลี่ยนชื่อก่อนเริ่ม
 
-## หากพวกเราแชร์ M365 Account กันใช้ ต้องสร้างสำเนาไฟล์ใหม่ก่อนเริ่มทำ Exercise
+![สร้างสำเนาไฟล์ใน OneDrive](2025-10-26_22-23-37.png)
 
-1. ให้ทำการคลิกขวาที่ไฟล์เอกสารใน OneDrive บนเว็บเบราเซอร์ 
-2. แล้วเลือก "Copy To" เพื่อทำสำเนาไฟล์ใหม่
+## Scenario 1: วิเคราะห์รายได้ของสินค้า
 
-![alt text](2025-10-26_22-23-37.png)
+### Practice 1: หา insight และสร้างภาพประกอบการตัดสินใจ (ประมาณ 14 นาที)
 
-3. คลิกขวาที่ไฟล์สำเนา แล้วเลือกคำสั่ง "Rename" เพื่อเปลี่ยนชื่อไฟล์ให้ต่อชื่อตัวเราห้อยท้าย เพื่อไม่ให้สับสนกับไฟล์ของคนอื่น
+#### Steps
 
+1. เปิด `sample_product_revenue.xlsx` ด้วย Excel บน Web
+2. จากเมนู **Home** เปิด **Copilot**
 
-## 1. หากยังไม่ได้อัพโหลดไฟล์ 
+![เปิด Copilot ใน Excel](../../images/copilot/2025-10-07_15-59-48.png)
 
-1. เปิด Web browser
-2. เปิด link  https://onedrive.microsoft.com
-3. Login ด้วย Microsoft account ขององค์กร
-4. สร้าง folder ใหม่สำหรับ upload ไฟล์ ชื่อ **My Copilot**
-5. ทำการอัพโหลดไฟล์ **sample_product_revenue.xlsx** (ได้จาก zip file) ขึ้นไปใน **My Copilot** folder
-6. หรือเปิดไฟล์จาก link นี้
+3. วาง prompt ด้านล่าง แล้วตรวจสอบ insight กับข้อมูลใน workbook
 
+```text
+วิเคราะห์ workbook นี้และสรุป:
+- สินค้าที่มีรายได้รวมสูงสุด 3 อันดับ
+- แนวโน้มรายได้รายไตรมาสที่น่าสนใจ 2 ข้อ
+- ค่าที่ผิดปกติหรือควรตรวจสอบต่อ 1 ข้อ
+อ้างอิงชื่อ sheet และข้อมูลที่ใช้ในแต่ละข้อ
+```
 
-## 2. เปิดไฟล์ Excel บน Web
+4. ขอให้ Copilot สร้างกราฟสำหรับเปรียบเทียบสินค้า
 
-![alt text](../../images/copilot/2025-10-07_15-59-48.png)
+```text
+สร้าง column chart แสดงสินค้า 5 อันดับแรกตามรายได้รวม และตั้งชื่อกราฟให้สื่อความหมายชัดเจน
+```
 
-1. จาก OneDrive คลิกขวาที่ไฟล์ sample_product_revenue.xlsx 
-2. จากเมนูเลือก Open > Open in browser
-3. จากเมนู Home tab > กดเปิด Copilot Chat
+5. ขอให้ Copilot แนะนำสูตรสำหรับคำนวณสัดส่วนรายได้ของสินค้าแต่ละรายการ
 
+```text
+สร้าง formula สำหรับคำนวณรายได้รวมของสินค้าแต่ละรายการเป็นเปอร์เซ็นต์ของรายได้รวมทั้งหมด
+อธิบายสูตรสั้น ๆ ก่อนนำไปใช้
+```
 
+6. ตรวจสอบช่วงเซลล์ในสูตร แล้วเลือกนำสูตรไปใช้เมื่อข้อมูลถูกต้อง
+7. บันทึกไฟล์โดยคงไฟล์ต้นฉบับไว้
 
-## 3. สั่งให้ Copilot ช่วยวิเคราะห์ข้อมูล
+## Checkpoint
 
-1. ใช้คำสั่ง prompt ด้านล่างเพื่อให้ Copilot วิเคราะห์ data insight 
-   
-   ```
-   วิเคราะห์ sheet ทัั้งหมด และบอก data insights ที่น่าสนใจหน่อย
-   ```
-   ```
-   Analyze this workbook and give me interesting data insights
-   ```
+- insight ทุกข้อสามารถตรวจสอบย้อนกลับจาก workbook ได้
+- กราฟแสดงสินค้า 5 อันดับแรกตามรายได้รวม
+- สูตรใช้ช่วงเซลล์ถูกต้องและไม่มี error
 
-2. ใช้คำสั่ง prompt ด้านล่างเพื่อให้ Copilot สร้างกราฟแท่งของ 5 สินค้ามีที่มูลค่าสูงสุด
+## Expected Output
 
-   ```
-   Create a bar chart of the top 5 products by revenue
-   ```
-   ```
-   สร้างกราฟแท่งแสดงรายการสินค้ายอดขายสูงสุด 5 อันดับหน่อย
-   ```
-
-
-3. ใช้คำสั่ง prompt ด้านล่างเพื่อให้ Copilot สร้าง formular ในการคำนวณให้ 
-
-   ```
-   Create a formula to calculate the percentage of total revenue for each product
-   ```
-   ```
-   คิดสูตร formula คำนวนยอดขายของสินค้าแต่ละตัวเป็น percent ต่อยอดขายรวมของสินค้าทุกตัวให้หน่อย
-   ```
-
-> Copilot อาจจะมีการเสนอตัวว่าสามารถใส่ formula ใน column ใหม่ได้ แต่จะเป็นการสร้างไฟล์ใหม่ให้ ดาวน์โหลดแทน และอาจจะไม่มี formula ในไฟล์สำเร็จที่สร้างให้
-
-## 4. การใช้งาน Copilot App Skill สำหรับผู้ใช้ที่มี License
-
-1. จากเมนูด้านบนของ Excel กดเลือกเปิดเมนู Copilot ที่อยู่ด้านขวาสุด
-2. เลือก App Skill
-
-![alt text](../../images/copilot/2025-10-07_15-59-32.png)
-
-3. จากหน้าต่าง Copilot ให้ใช้ prompt ด้านล่างในการสร้าง column และ formular
-
-   ```
-   Create column next to Q4 with sum of total revenue for each product
-   ```
-
-4. จากหน้าต่าง Copilot ให้ใช้ prompt ด้านล่างในการกำหนด Conditional formatting
-
-   ```
-   Apply conditional formatting to highlight products with revenue greater than 3000. Use green fill for cells that meet this condition.Us ered fill for cells that do not meet this condition.
-   ```
-
-5. จากหน้าต่าง Copilot ให้ใช้ prompt ด้านล่างในการสร้าง column chart
-
-   ```
-   Create a column chart for top 5 products in q1
-   ```
+- insight อย่างน้อย 3 ข้อ กราฟ 1 รายการ และคอลัมน์เปอร์เซ็นต์รายได้ 1 คอลัมน์

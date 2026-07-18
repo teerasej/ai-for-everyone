@@ -3,7 +3,7 @@
 
 NOTE: แบบฝึกหัดนี้**ในส่วนของการอัพโหลดไฟล์จะสามารถทำได้เฉพาะ ผู้ที่มี license ของ Microsoft 365 Copilot แล้วนะครับ** ใครที่ไม่มีสามารถดูตามได้ก่อนนะ
 
-## Feature 1: ขั้นตอนขั้นตอนการกำหนดหน้าที่ของ Agent แบบกำหนดโดยตรง (Configure)
+## Practice 1: ขั้นตอนขั้นตอนการกำหนดหน้าที่ของ Agent แบบกำหนดโดยตรง (Configure)
 
 1. เปิด Copilot Chat [https://m365copilot.com/](https://m365copilot.com/)
 2. ในเมนูด้านข้าง ให้เลือก **Chat** > **Agents** > **Create Agent** 
