@@ -7,7 +7,7 @@
 ## Prerequisites
 
 1. ลงชื่อเข้าใช้ [Microsoft 365 Copilot](https://m365copilot.com/) ด้วยบัญชีองค์กรที่มี Microsoft 365 Copilot license
-2. ให้แน่ใจว่าได้อัพโหลดไฟล์ `Business Idea.docx` และ `sample_product_revenue.xlsx` ไปยัง OneDrive แล้ว
+2. ให้แน่ใจว่าได้อัพโหลดไฟล์ `Business Idea.docx` และ `sample_product_revenue.xlsx` ไปยัง OneDrive แล้ว หากยังไม่มีไฟล์ ให้ดาวน์โหลดไฟล์ zip สำหรับเวิร์คชอปได้ที่ [Download workshop files](https://raw.githubusercontent.com/teerasej/ai-for-everyone/unilever-1/files/Exercise_file.zip)
 3. ตรวจสอบว่าปุ่ม **Work IQ** อยู่ในสถานะเปิด เพื่อให้ Copilot อ้างอิงข้อมูลที่บัญชีของเราเข้าถึงได้
 
 ![alt text](../images/copilot/2026-07-16_15-26-59.png)
