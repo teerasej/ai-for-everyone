@@ -2,7 +2,7 @@
 
 ## Exercise Overview
 
-เราจะใช้ Copilot Chat วิเคราะห์ไฟล์ promotion performance แบบสมมติ เพื่อช่วยทีม Commercial และ Trade Marketing สรุปผล promotion, ตรวจ anomaly, ตั้งคำถามกับทีมที่เกี่ยวข้อง และเตรียม PowerPoint-ready outline สำหรับผู้บริหาร
+เราจะใช้ Copilot Chat วิเคราะห์ไฟล์ promotion performance แบบสมมติ เพื่อช่วยทีมธุรกิจ และ Trade Marketing สรุปผล promotion, ตรวจ anomaly, ตั้งคำถามกับทีมที่เกี่ยวข้อง และเตรียม PowerPoint-ready outline สำหรับผู้บริหาร
 
 ## Prerequisites
 
@@ -14,7 +14,7 @@
 
 ## Scenario 1: เตรียม Promotion Performance Brief
 
-ทีม Commercial ต้องสรุปผล promotion ให้ผู้บริหารและทีมที่เกี่ยวข้อง เราจะใช้ Copilot ช่วยอ่านไฟล์ สร้างข้อความ วิเคราะห์ประเด็น และเตรียม output หลายรูปแบบจากข้อมูลเดียวกัน
+ทีมธุรกิจ ต้องสรุปผล promotion ให้ผู้บริหารและทีมที่เกี่ยวข้อง เราจะใช้ Copilot ช่วยอ่านไฟล์ สร้างข้อความ วิเคราะห์ประเด็น และเตรียม output หลายรูปแบบจากข้อมูลเดียวกัน
 
 ## Practice 1: สรุปภาพรวมจากไฟล์ promotion
 
@@ -27,35 +27,29 @@
 
 ```text
 ใช้เฉพาะข้อมูลจาก workbook ที่แนบมา
-สรุป promotion performance ภาษาไทยสำหรับทีม Commercial
+สรุป promotion performance ภาษาไทยสำหรับทีมธุรกิจ
 
 โครงสร้าง:
 1. Executive summary ไม่เกิน 4 bullets
 2. ตาราง Channel | Total Promotion Sales | Average Uplift % | Key observation
 3. Product หรือ channel ที่ควรตรวจสอบต่อ 3 รายการ
-4. Information needed 3 ข้อ
 
 ห้ามระบุปี สกุลเงิน retailer จริง campaign จริง หรือสาเหตุที่ workbook ไม่ได้ให้ข้อมูล
 แยก Fact | Interpretation | Information needed ให้ชัดเจน
 ```
 
-5. ตรวจอย่างน้อย 2 ตัวเลขกับ workbook เช่น Promotion Sales หรือ Uplift %
-6. ถ้ามีข้อสรุปเชิงสาเหตุที่ไม่มีหลักฐาน ให้ถามต่อเพื่อแก้ไข
+5. ตรวจสอบผลการทำงานอย่างน้อย 2 ชุดกับ workbook เช่น Promotion Sales หรือ Uplift %
 
-```text
-ตรวจคำตอบก่อนหน้าอีกครั้ง
-ลบข้อสรุปเชิงสาเหตุที่ workbook ไม่ได้สนับสนุน และระบุว่าประเด็นใดเป็น Fact, Interpretation หรือ Information needed
-```
 
 ## Practice 2: ร่างข้อความให้ทีมตรวจสอบข้อมูล
 
 #### Steps
 
-1. ใช้ Chat เดิมเพื่อรักษาบริบทจากไฟล์
+1. ใช้ Chat เดิมเพื่อใช้ข้อมูลเดิม (context) จากไฟล์
 2. วาง prompt ด้านล่าง แล้วกด **Send**
 
 ```text
-จาก workbook ที่แนบมา ร่างข้อความภาษาไทยสำหรับส่งใน Microsoft Teams ถึงทีม Commercial และ Trade Marketing
+ร่างข้อความภาษาไทยสำหรับส่งใน Microsoft Teams ถึงทีมธุรกิจ และ Trade Marketing
 วัตถุประสงค์คือขอให้ทีมช่วยตรวจสอบ promotion performance ก่อนประชุมผู้บริหาร
 
 โครงสร้าง:
@@ -64,8 +58,7 @@
 3. คำถามที่ต้องการให้ทีมตรวจสอบ 3 ข้อ
 4. Action items ในตาราง Owner | Action | Due
 
-น้ำเสียงเป็นมืออาชีพ กระชับ และไม่กล่าวถึงสาเหตุที่ไม่มีในไฟล์
-ใช้ [ต้องระบุ] สำหรับ Owner และ Due
+น้ำเสียงเป็นมืออาชีพ กระชับ
 ```
 
 3. ตรวจว่า message มีคำถามที่ตรวจสอบได้จากไฟล์หรือทีมงานจริง
@@ -148,29 +141,49 @@
 #### Steps
 
 1. ใช้ผลลัพธ์ที่ตรวจแล้วจาก Practice 1-4
-2. วาง prompt ด้านล่าง แล้วกด **Send**
+2. วาง prompt ด้านล่างทีละช่องลงไปใน Chat ให้ครบทีละ 1 prompt จนครบ แล้วกด **Send**
 
 ```text
 ใช้เฉพาะ workbook ที่แนบมาและผลลัพธ์ที่ตรวจแล้วจาก Chat นี้
-สร้าง PowerPoint-ready outline ภาษาไทยสำหรับ Promotion Performance Review เพื่อ brief ผู้บริหาร
-
-สร้าง slide outline 6 slides:
+สร้าง PowerPoint outline ภาษาไทยสำหรับ Promotion Performance Review เพื่อ brief ผู้บริหาร
+```
+```text
+สร้าง slide outline slides:
 1. Title และวัตถุประสงค์การนำเสนอ
-2. Promotion performance snapshot
-3. Channel signals
-4. Top products และ items to verify
-5. Information gaps และ questions for Commercial team
-6. Recommended action items และ decision checkpoint
+2. Executive summary 1 slide
+3. สรุปตารางทั้งหมด แยกเป็นตารางละ slide
+```
+```text
+- ในแต่ละ slide ให้มี Slide title, Key message, 2-3 bullets และ Speaker notes ไม่เกิน 2 ประโยค
+- ระบุ chart suggestion 1 จุดที่ใช้ข้อมูลจาก workbook ได้จริง
+- ถ้าใน Copilot Chat มี PowerPoint agent ที่สร้างไฟล์ได้ ใหสร้างไฟล์ให้พร้อมดาวน์โหลดหรือบันทึก
+- ถ้าไม่มี ให้จัดรูปแบบคำตอบให้พร้อมคัดลอกไปสร้างสไลด์ใน PowerPoint
+- ห้ามเติมปี สกุลเงิน retailer จริง campaign จริง หรือสาเหตุที่ไม่มีใน workbook
+```
+### แบบเต็ม 
+```text
+ใช้เฉพาะ workbook ที่แนบมาและผลลัพธ์จาก Chat นี้
 
-ในแต่ละ slide ให้มี Slide title, Key message, 2-3 bullets และ Speaker notes ไม่เกิน 2 ประโยค
-ระบุ chart suggestion 1 จุดที่ใช้ข้อมูลจาก workbook ได้จริง
-ถ้าใน Copilot Chat มี PowerPoint agent ที่สร้างไฟล์ได้ ให้สร้างไฟล์ให้พร้อมดาวน์โหลดหรือบันทึก
-ถ้าไม่มี ให้จัดรูปแบบคำตอบให้พร้อมคัดลอกไปสร้างสไลด์ใน PowerPoint
-ห้ามเติมปี สกุลเงิน retailer จริง campaign จริง หรือสาเหตุที่ไม่มีใน workbook
+สร้าง PowerPoint outline ภาษาไทยสำหรับ Promotion Performance Review เพื่อ brief ผู้บริหาร
+
+สร้าง slide outline slides:
+1. Title และวัตถุประสงค์การนำเสนอ
+2. Executive summary 1 slide
+3. สรุปตารางทั้งหมด แยกเป็นตารางละ slide
+
+- ในแต่ละ slide ให้มี Slide title, Key message, 2-3 bullets และ Speaker notes ไม่เกิน 2 ประโยค
+- ระบุ chart suggestion 1 จุดที่ใช้ข้อมูลจาก workbook ได้จริง
+- ถ้าไม่มี ให้จัดรูปแบบคำตอบให้พร้อมคัดลอกไปสร้างสไลด์ใน PowerPoint
+- ห้ามเติมปี สกุลเงิน retailer จริง campaign จริง หรือสาเหตุที่ไม่มีใน workbook
 ```
 
-3. ตรวจว่า slide ที่มีตัวเลขอ้างอิง workbook ได้จริง
-4. ตรวจว่า slide ที่มีการตีความแยก Fact, Interpretation และ Information needed ชัดเจน
+3. ตรวจสอบ outline 
+4. สั่งให้ Copilot สร้างไฟล์ PowerPoint โดยใช้ prompt ด้านล่าง
+   
+    ```text
+    สร้างไฟล์ powerpoint ตาม outline ที่มี
+    ```
+5. ตรวจว่า slide มีเนื้อหาตรงกับ outline 
 
 ## Checkpoint
 
@@ -183,7 +196,7 @@
 
 ## Expected Output
 
-- ข้อความ Microsoft Teams สำหรับทีม Commercial และ Trade Marketing 1 ฉบับ
+- ข้อความ Microsoft Teams สำหรับทีมธุรกิจ และ Trade Marketing 1 ฉบับ
 - เนื้อหาตามบทบาทที่เลือก 1 ชิ้น
 - ตารางวิเคราะห์ promotion performance พร้อม insight และ action items 1 ชุด
 - PowerPoint-ready outline สำหรับผู้บริหาร 1 ชุด
