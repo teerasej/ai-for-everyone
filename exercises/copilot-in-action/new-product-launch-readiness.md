@@ -41,12 +41,6 @@
 ```
 
 5. ตรวจว่าสรุปตรงกับเนื้อหาในไฟล์ brief
-6. ถ้าคำตอบเติมบริบทเกินไฟล์ ให้ถามต่อเพื่อแก้ไข
-
-```text
-ตรวจคำตอบก่อนหน้าอีกครั้ง
-ลบข้อมูลที่ไฟล์ไม่ได้สนับสนุน และแยก Fact | Open decision | Information needed ให้ชัดเจน
-```
 
 ## Practice 2: วิเคราะห์ readiness tracker
 
@@ -86,7 +80,6 @@
 จากไฟล์ที่แนบมา ร่างข้อความ Microsoft Teams สำหรับ Marketing lead
 ขอให้ owner แต่ละ workstream ตรวจ readiness, open decisions และ next action ก่อนประชุม
 น้ำเสียงกระชับ เป็นมืออาชีพ และไม่ตำหนิทีม
-ใช้ [ต้องระบุ] สำหรับ owner หรือ due date ที่ไฟล์ไม่ได้ระบุ
 ```
 
 ### ตัวเลือก B: Supply Chain
@@ -117,7 +110,7 @@
 
 ```text
 ใช้เฉพาะไฟล์ที่แนบมาและผลลัพธ์ที่ตรวจแล้วจาก Chat นี้
-สร้าง meeting brief ภาษาไทยสำหรับประชุม Launch Readiness
+สร้าง meeting brief ภาษาไทยสำหรับประชุม Launch 
 
 โครงสร้าง:
 1. Meeting objective 1 ย่อหน้า
@@ -140,7 +133,7 @@
 2. วาง prompt ด้านล่าง แล้วกด **Send**
 
 ```text
-ใช้เฉพาะไฟล์ที่แนบมาและผลลัพธ์ที่ตรวจแล้วจาก Chat นี้
+ใช้เฉพาะไฟล์ที่แนบมาและผลลัพธ์จาก Chat นี้
 สร้าง Excel-ready action tracker ภาษาไทยสำหรับ Launch Readiness Brief
 
 ให้จัดเป็น 4 tables หรือ 4 sheets ดังนี้:
@@ -150,13 +143,17 @@
 4. Action Tracker: Workstream | Owner | Action | Due | Source data to check
 
 แสดงวิธีคำนวณจำนวน workstreams ตาม Status แบบ 1 บรรทัด
-ถ้าใน Copilot Chat มี Excel agent ที่สร้างไฟล์ได้ ให้สร้างไฟล์ให้พร้อมดาวน์โหลดหรือบันทึก
-ถ้าไม่มี ให้จัดรูปแบบตารางให้พร้อมคัดลอกไปวางใน Excel
 ห้ามเติมข้อมูลที่ไม่มีในไฟล์
 ```
 
 3. ตรวจว่า Status count ตรงกับ tracker
 4. ตรวจว่า action tracker ใช้ owner, due และ source เฉพาะข้อมูลที่ไฟล์รองรับ หรือใช้ [ต้องระบุ]
+5. ใช้ prompt ด้านล่างเพื่อให้ Copilot สร้าง output เป็น Excel-ready table format
+
+```text
+ให้สร้าง output เป็น Excel table format ท
+```
+
 
 ## Checkpoint
 

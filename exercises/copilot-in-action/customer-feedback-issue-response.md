@@ -2,7 +2,7 @@
 
 ## Exercise Overview
 
-เราจะใช้ Copilot Chat ช่วยทีม Brand, Customer Care และ Quality สรุป feedback และ issue log แบบสมมติ เพื่อจัดกลุ่มประเด็น ตรวจระดับความสำคัญ ร่างข้อความสำหรับทีม และเตรียม Word-ready issue response summary
+เราจะใช้ Copilot Chat ช่วยทีม Branding, Customer Care และ Quality สรุป feedback และ issue log แบบสมมติ เพื่อจัดกลุ่มประเด็น เช็คระดับความสำคัญของเรื่อง ร่างข้อความสำหรับทีม และเตรียม issue response summary ใน Microsoft Word
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@
 
 ## Scenario 1: เตรียม Weekly Feedback And Issue Response Summary
 
-ทีม Brand และ Customer Care ต้องสรุป feedback เพื่อประชุมประจำสัปดาห์ เราจะใช้ Copilot ช่วยจัดกลุ่มประเด็น ตรวจ issue ที่ควร escalate และร่างข้อความสำหรับทีมที่เกี่ยวข้อง
+ทีม Brand และ Customer Care ต้องสรุป feedback เพื่อประชุมประจำสัปดาห์ เราจะใช้ Copilot ช่วยจัดกลุ่มประเด็น ตรวจ issue ที่ควร escalate งานต่อ และร่างข้อความสำหรับสื่อสารกับทีมที่เกี่ยวข้อง
 
 ## Practice 1: สรุป feedback themes จาก log
 
@@ -41,12 +41,6 @@
 ```
 
 5. ตรวจจำนวนรายการ feedback theme อย่างน้อย 1 theme กับ workbook
-6. ถ้าคำตอบสรุป root cause โดยไม่มีหลักฐาน ให้ถามต่อเพื่อแก้ไข
-
-```text
-ตรวจคำตอบก่อนหน้าอีกครั้ง
-ลบ root cause หรือ claim ที่ workbook ไม่ได้สนับสนุน และแยก Fact | Interpretation | Information needed ให้ชัดเจน
-```
 
 ## Practice 2: ใช้ guideline เพื่อปรับ response approach
 
@@ -104,31 +98,6 @@
 3. ตรวจว่า output เหมาะกับบทบาทที่เลือก
 4. ตรวจว่าไม่มีข้อมูลส่วนบุคคลหรือ claim เกินไฟล์
 
-## Practice 4: วิเคราะห์ issue priority และ action items
-
-#### Steps
-
-1. ใช้ Chat เดิมที่มีทั้ง workbook และ guideline
-2. วาง prompt ด้านล่าง แล้วกด **Send**
-
-```text
-ใช้เฉพาะไฟล์ที่แนบมา
-วิเคราะห์ issue priority สำหรับ weekly review
-
-งานที่ต้องทำ:
-1. สรุปจำนวน feedback ตาม Severity
-2. ระบุ 3 themes ที่ควรตรวจสอบก่อน
-3. ระบุรายการที่ควร escalate พร้อมเหตุผลจากข้อมูลในไฟล์
-4. สร้าง action items ตาราง Owner | Action | Source data to check | Due
-5. สรุป privacy และ responsible AI reminder 3 bullets
-
-ใช้ [ต้องระบุ] สำหรับ Owner และ Due ที่ไฟล์ไม่ได้ระบุ
-ห้ามเติมข้อมูลส่วนบุคคล สาเหตุ หรือ claim ที่ไม่มีในไฟล์
-```
-
-3. ตรวจจำนวน feedback ตาม Severity กับ workbook
-4. ตรวจรายการ escalate อย่างน้อย 1 รายการกับ guideline
-
 ## Practice 5: เตรียม Word-ready issue response summary
 
 #### Steps
@@ -148,13 +117,17 @@
 5. Escalation items และ action items
 6. Privacy และ responsible AI reminder 3 bullets
 
-ถ้าใน Copilot Chat มี Word agent ที่สร้างไฟล์ได้ ให้สร้างไฟล์ให้พร้อมดาวน์โหลดหรือบันทึก
-ถ้าไม่มี ให้จัดรูปแบบคำตอบให้พร้อมคัดลอกไปวางใน Word
+ให้จัดรูปแบบคำตอบให้พร้อมคัดลอกไปวางใน Word
 ห้ามเติมข้อมูลส่วนบุคคล สาเหตุ หรือ claim ที่ไม่มีในไฟล์
 ```
 
 3. ตรวจว่า Word-ready summary มี privacy reminder หรือข้อจำกัดของข้อมูล
 4. ตรวจว่าเอกสารไม่สร้างคำตอบถึงลูกค้ารายบุคคล
+5. ใช้ prompt ต่อไปนี้เพื่อให้สร้างเอกสาร Microsoft Word
+
+```text
+สร้างเอกสาร Microsoft Word ตาม outline ที่มี
+```
 
 ## Checkpoint
 
@@ -170,5 +143,4 @@
 - Feedback themes summary 1 ชุด
 - Response approach ที่อ้างอิง guideline 1 ชุด
 - ข้อความตามบทบาทที่เลือก 1 ชิ้น
-- Issue priority analysis พร้อม escalation items และ action items 1 ชุด
 - Word-ready issue response summary 1 ชุด
