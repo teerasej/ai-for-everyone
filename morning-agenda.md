@@ -19,7 +19,6 @@
 3. [สรุปและร่าง Email ด้วย Copilot in Outlook](exercises/start-up/feature-6-outlook.md)
 4. [สร้าง Presentation จากไฟล์ด้วย Copilot in PowerPoint](exercises/start-up/feature-5-ppt.md)
 
-### พัก (15 นาที)
 
 ### 4. AI Agent ใน Microsoft 365 
 
