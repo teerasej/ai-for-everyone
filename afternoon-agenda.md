@@ -17,7 +17,6 @@
 
 1. [ค้นหา ปรับ บันทึก และแชร์ Prompt ด้วย Prompt Gallery](exercises/copilot-prompt-gallery.md)
 
-### พัก (15 นาที)
 
 ### 4. Advanced Microsoft 365 Copilot: Copilot Pages
 
