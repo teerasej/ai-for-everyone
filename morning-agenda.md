@@ -1,6 +1,5 @@
 # Agenda: ช่วงเช้า - Copilot Premium
 
-[กลับไปหน้าหลักของ workshop สำหรับ unilever ครับ](readme.md)
 
 ## ช่วงเช้า: Copilot Premium 
 
