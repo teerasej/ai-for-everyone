@@ -1,7 +1,5 @@
-# Agenda: ช่วงเช้า - Copilot Premium
+# Agenda Copilot Premium
 
-
-## ช่วงเช้า: Copilot Premium 
 
 ### 1. เข้าใจการใช้งาน AI ปี 2026 
 
@@ -18,7 +16,6 @@
 3. [วิเคราะห์ข้อมูลด้วย Copilot in Excel](exercises/start-up/feature-4-excel.md)
 4. [สรุปและร่าง Email ด้วย Copilot in Outlook](exercises/start-up/feature-6-outlook.md)
 
-### พัก (15 นาที)
 
 ### 4. AI Agent ใน Microsoft 365 
 
@@ -30,4 +27,4 @@
 
 ### 6. Wrap up 
 
-ช่วงบรรยายและสรุปสิ่งที่เราได้ทดลองในช่วงเช้า
+ช่วงบรรยายและสรุปสิ่งที่เราได้ทดลอง
